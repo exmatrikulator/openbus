@@ -291,7 +291,6 @@ var Busstop = (function(){
     
     addOverview(departures);
     
-    title('Alter Markt');
     show();
     
   };

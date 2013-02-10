@@ -2,19 +2,9 @@ var
   busstops = require('../data/busstops-wtal').busstops
   ,http = require('http')
   ,Navigation = require('../modules/navi').navi
-  ,busstops = require('../modules/busstops')
+  ,busstop = require('../modules/busstop')
 
 ;
-
-
-exports.filter = function(req, res){
-  var navigation = Navigation(req.route);
-  //setTimeout(function(){
-    res.render('filter', { title: 'Express', navigation:navigation });  
-  //},2000)
-  
-};
-
 exports.proxy = function(req, res){
 
   var name = req.params.name;
@@ -25,13 +15,11 @@ exports.proxy = function(req, res){
   };
   
   
-  var name = 'Heimatplan';
-  busstops.readCache(name)
+  busstop.readCache(name)
   .then(doSomeThingWithBusData)
   .fail(
     function(error){
-
-      busstops.requestData(name)
+      busstop.requestData(name)
       .then(doSomeThingWithBusData)
       .fail(function(){
         console.log('something with api request went wrong');
