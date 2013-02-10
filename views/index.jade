@@ -1,5 +1,26 @@
-extends layout
-
-block content
-  h1= title
-  p Welcome to #{title}
+doctype 5
+html
+  head
+    meta(name="viewport", content="initial-scale=1.0, user-scalable=no")
+    meta(charset="utf-8")
+    title Free WSW 
+    script(src="http://maps.googleapis.com/maps/api/js?libraries=geometry&key=AIzaSyDBoyVRJC-572Wj7Pfgf10Z9OjRHHDkgOE&v=3.exp&sensor=false")
+    script(src="/javascripts/jquery.min.js")
+    script(src="/javascripts/maps2.js")
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    
+body
+  div#busMap
+  div#dmp
+    div
+      | Map lat
+      div#mapLat
+    div
+      | Map lng
+      div#mapLng
+    div
+      | Map lng
+      div#mapZoom
+    div#streetview
+  div#overlay
+    h1 Busshaltestelle

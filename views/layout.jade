@@ -1,7 +1,8 @@
 doctype 5
 html
-  head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
-  body
+  include include/head
+  body(data-spy='scroll', data-target='.bs-docs-sidebar')
+    include include/navi
     block content
+    include include/footer
+    include include/javascript

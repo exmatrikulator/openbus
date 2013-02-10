@@ -1,0 +1,17 @@
+.navbar.navbar-inverse.navbar-fixed-top
+  .navbar-inner
+    .container
+      button.btn.btn-navbar(type='button', data-toggle='collapse', data-target='.nav-collapse')
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a.brand(href='./index.html') Bootstrap
+      .nav-collapse.collapse
+        ul.nav
+          each item in navigation
+            if item.active === true
+              li.active
+                a(href='#{item.href}') #{item.text}
+            else
+              li
+                a(href='#{item.href}') #{item.text}
