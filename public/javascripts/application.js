@@ -474,8 +474,8 @@ var Map = (function(){
   
   var ready = function(){
     
-    Busstop.loadBusses('Alter Markt');
-    return;
+    //Busstop.loadBusses('Alter Markt');
+    //return;
     $map = $('#map');
     scaleMap();
     addGoogleMap();

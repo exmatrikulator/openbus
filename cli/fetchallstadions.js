@@ -1,7 +1,7 @@
 var http = require('http');
 var fs = require('fs');
 
-var stations = require('../data/busstops.js').busstops;
+var stations = require('../data/busstops-wtal.js').busstops;
 
 var maxConnections = 10;
 var actConnection = 0;
@@ -24,6 +24,13 @@ for (var i = 0, x = 500; i < x; i += 1) {
 }
 
 var queueEmpty = false;
+
+var cacheData = function(name, data){
+  name = name.replace(' ', '-');
+
+  fs.writeFile('../data/cache/' + name + '.json',JSON.stringify(data));
+
+}
 
 var requestData = function() {
   var url = false;
@@ -66,9 +73,14 @@ var requestData = function() {
     });
     res.on('end', function() {
       
+      
+      var data = JSON.parse(body);
+
       urls[url].status = 'end';
 
       var endTime = new Date();
+      data.requestTime = endTime.toGMTString();
+      cacheData(url, data);
       
       var diffTime = Date.parse(endTime.toGMTString()) - Date.parse(startTime.toGMTString());
       diffTime = diffTime;
@@ -82,6 +94,7 @@ var requestData = function() {
   });
 
   req.on('error', function(e) {
+
 
     var endTime = new Date();
 
