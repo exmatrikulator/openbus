@@ -1,4 +1,4 @@
-var busstops = require('../modules/busstops');
+var busstops = require('../modules/busstop');
 
 busstops.setCachePath('../data/cache/');
 

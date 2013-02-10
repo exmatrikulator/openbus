@@ -14,17 +14,32 @@ exports.setCachePath = function(path){
 // In Minutes 
 var cacheExpires = 10;
 
+var cacheName = function(name){
+  name = name
+    .replace(/ /g,'-')
+    .replace(/ä/gi,'ae')
+    .replace(/ö/gi,'oe')
+    .replace(/ü/gi,'ue')
+    .replace(/ß/gi,'ss')
+    .replace(/[^a-z0-9]/gi,'')
+    ;
+  return name;
+};
+
+exports.getCacheName = cacheName;
+
 /**
  * Read Cache as a Promise 
  * Resolved, when cachefile exists and is readable and is json and is not older then expired  
  */
 exports.readCache = function(name){
+
   var deferred = Q.defer();
 
-  var cacheFilename = pathToCache + name.replace(' ', '-') + '.json';
-  console.log(cacheFilename);
+  var cacheFilename = pathToCache + cacheName(name) + '.json';
+
   fs.exists(cacheFilename, function (exists) {
-    console.log(exists);
+
     if(exists === false){
       deferred.reject('cache file does not exist');
       return;
@@ -44,12 +59,12 @@ exports.readCache = function(name){
         }
         
         var requestTime = Date.parse(json.requestTime);
-        console.log(json.requestTime);
+
         var now = new Date();
         now = Date.parse(now.toGMTString());
         
         var diff = (now - requestTime) / 1000 / 60;
-        console.log(diff > cacheExpires);
+
         if(diff > cacheExpires){
           deferred.reject('cache expired');
           return;
@@ -89,11 +104,7 @@ exports.requestData = function(name){
       var json = JSON.parse(body);
       json.requestTime = endTime.toGMTString();
       deferred.resolve(json);
-      
-      name = name.replace(' ', '-');
-      fs.writeFile(pathToCache + name + '.json',JSON.stringify(json));
-      
-      
+      fs.writeFile(pathToCache + cacheName(name) + '.json',JSON.stringify(json));
     });
     responseBusses.on('error', function () {
       deferred.reject('request error');
