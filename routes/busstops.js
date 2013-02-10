@@ -1,6 +1,9 @@
-var busstops = require('../data/busstops-wtal').busstops
-, http = require('http')
-,Navigation = require('../modules/navi').navi
+var 
+  busstops = require('../data/busstops-wtal').busstops
+  ,http = require('http')
+  ,Navigation = require('../modules/navi').navi
+  ,busstops = require('../modules/busstops')
+
 ;
 
 
@@ -17,33 +20,29 @@ exports.proxy = function(req, res){
   var name = req.params.name;
   name = decodeURIComponent(name);
 
-  var options = {
-    hostname: 'www.wsw-mobil.de',
-    port: 80,
-    path: '/app-panel.php?p=Wuppertal&s=' + encodeURIComponent(name) + '&l=WSW_Limit',
-    method: 'GET'
+  var doSomeThingWithBusData = function(data){
+    res.json(data);
   };
-
-  var body = '';
-
-  var requestBusses = http.request(options, function(responseBusses) {
-
-    responseBusses.setEncoding('utf8');
-    responseBusses.on('data', function (chunk) {
-      body += chunk;
-    });
-    responseBusses.on('end', function () {
-      res.send(body)
-    });
-  });
-
-  requestBusses.end();
-
-
-
   
+  
+  var name = 'Heimatplan';
+  busstops.readCache(name)
+  .then(doSomeThingWithBusData)
+  .fail(
+    function(error){
+
+      busstops.requestData(name)
+      .then(doSomeThingWithBusData)
+      .fail(function(){
+        console.log('something with api request went wrong');
+      });
+    }
+  );
  
 };
+
+
+
 exports.xhr = function(req, res){	
 	var box = {
 	  start: {

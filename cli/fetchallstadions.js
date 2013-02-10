@@ -27,9 +27,7 @@ var queueEmpty = false;
 
 var cacheData = function(name, data){
   name = name.replace(' ', '-');
-
   fs.writeFile('../data/cache/' + name + '.json',JSON.stringify(data));
-
 }
 
 var requestData = function() {
