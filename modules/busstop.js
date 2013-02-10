@@ -44,11 +44,12 @@ exports.readCache = function(name){
         }
         
         var requestTime = Date.parse(json.requestTime);
+        console.log(json.requestTime);
         var now = new Date();
         now = Date.parse(now.toGMTString());
         
         var diff = (now - requestTime) / 1000 / 60;
-
+        console.log(diff > cacheExpires);
         if(diff > cacheExpires){
           deferred.reject('cache expired');
           return;
@@ -90,7 +91,7 @@ exports.requestData = function(name){
       deferred.resolve(json);
       
       name = name.replace(' ', '-');
-      fs.writeFile('./data/cache/' + name + '.json',JSON.stringify(json));
+      fs.writeFile(pathToCache + name + '.json',JSON.stringify(json));
       
       
     });
