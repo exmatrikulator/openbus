@@ -4,11 +4,16 @@
  */
 
 var express = require('express')
-  , routes = require('./routes')
-  , busstops = require('./routes/busstops')
   , http = require('http');
 
-console.log(busstops)
+var routes = {
+  maps:require('./routes/index'),
+  text:require('./routes/text'),
+  busstops : require('./routes/busstops')
+};
+
+
+
 var app = express();
 
 app.configure(function(){
@@ -30,14 +35,14 @@ app.configure('development', function(){
   app.use(express.errorHandler());
 });
 
-app.get('/', routes.index);
-app.get('/mobile.html', routes.mobile);
-app.get('/about.html', routes.about);
+app.get('/', routes.maps.mobile);
+app.get('/mobile.html', routes.maps.mobile);
+app.get('/about.html', routes.text.about);
 
-app.get('/busstops.xhr/:startlat/:startlng/:endlat/:endlng', busstops.xhr);
-app.get('/busstops.proxy/:name', busstops.proxy);
+app.get('/busstops.xhr/:startlat/:startlng/:endlat/:endlng', routes.busstops.xhr);
+app.get('/busstops.proxy/:name', routes.busstops.proxy);
 
-app.get('/filter.html', busstops.filter);
+app.get('/filter.html', routes.busstops.filter);
 
 
 //http.createServer(app).listen(app.get('port'), '192.168.2.105', function(){
