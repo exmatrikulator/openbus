@@ -480,7 +480,29 @@ var Map = (function(){
     addGoogleMap();
 
   };
-
+  
+  
+  $(document).ready(
+    function(){
+      var typeahead = {};
+      $('#stations').typeahead({
+          source: function (query, process) {
+              return $.get('/busstops/typeahead.xhr', { query: query }, function (data) {
+                  typeahead = data.stations;
+                  var autocomplete = [];
+                  for(key in typeahead){
+                    autocomplete.push(key);
+                  }        
+                  return process(autocomplete);
+              });
+          },
+          updater: function(selected){
+            console.log(typeahead[selected]);
+          }
+      });      
+    }
+  );
+  
   $(document).ready(ready);
   $(window).resize(scaleMap);
   return{

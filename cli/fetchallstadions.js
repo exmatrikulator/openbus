@@ -7,7 +7,17 @@ busstop.setCachePath('../data/cache/');
 
 var stations = require('../data/busstops-wtal.js').busstops;
 
-var maxConnections = 10;
+
+var rematchStationName = function(osnName, wswName){
+  for(var i = 0, x = stations.length; i < x; i += 1){
+    if(stations[i].name === osnName){
+      stations[i].wswName = wswName;
+   
+    }
+  }
+};
+
+var maxConnections = 1000;
 var actConnection = 0;
 
 var urls = {};
@@ -27,7 +37,6 @@ for(var i = 0, x = stations.length; i < x; i += 1){
   //urls['/app-panel.php?p=Wuppertal&s=' + encodeURIComponent(name) + '&l=WSW_Limit'] = {
 }
 
-console.log(urls);
 
 var queueEmpty = false;
 
@@ -35,6 +44,9 @@ var nextRequests = function(){
   actConnection -= 1;
   for (var i = actConnection, x = maxConnections; i < x; i += 1) {
     requestData();
+  }
+  if(actConnection === 0 && queueEmpty === true){
+    console.log(stations);
   }
 };
 
@@ -51,9 +63,8 @@ var requestData = function() {
   if (stationName === false) {
     if(queueEmpty === false){
       queueEmpty = true;
-      console.log('Warteschlange leer');
     }
-   
+    
     //console.log(urls)
     return;
   }
@@ -62,17 +73,18 @@ var requestData = function() {
   var startTime = new Date();
 
   busstop.readCache(stationName)
-  .then(function(){
+  .then(function(data){
     var endTime = new Date();
     var diffTime = Date.parse(endTime.toGMTString()) - Date.parse(startTime.toGMTString());
+    rematchStationName (stationName, data.strFormStation);
     console.log("Request handled \t " + diffTime + "ms \t " + stationName + " fromCache \t" + actConnection + "\t von \t" + maxConnections);
     nextRequests();
   })
   .fail(
     function(error){      
       busstop.requestData(stationName)
-      .then(function(){
-        
+      .then(function(data){
+        rematchStationName (stationName, data.strFormStation);
         urls[busstop.getCacheName(stationName)].status = 'end';
       
         var endTime = new Date();
@@ -86,7 +98,9 @@ var requestData = function() {
       .fail(function(){
         var endTime = new Date();
         var diffTime = Date.parse(endTime.toGMTString()) - Date.parse(startTime.toGMTString());
+        urls[busstop.getCacheName(stationName)].status = 'failed';
         console.log("Request handled \t " + diffTime + "ms \t " + stationName + " failed \t" + actConnection + "\t von \t" + maxConnections);
+        nextRequests();
       });
     }
   );
@@ -96,8 +110,6 @@ var requestData = function() {
 
  
 }
-for (var i = actConnection, x = maxConnections; i < x; i += 1) {
-  //requestData();
-}
+
 
 requestData();

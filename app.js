@@ -41,6 +41,7 @@ app.get('/about.html', routes.text.about);
 
 app.get('/busstops.xhr/:startlat/:startlng/:endlat/:endlng', routes.busstops.xhr);
 app.get('/busstops.proxy/:name', routes.busstops.proxy);
+app.get('/busstops/typeahead.xhr', routes.busstops.typeahead);
 
 app.get('/filter.html', routes.busstops.filter);
 

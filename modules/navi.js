@@ -1,13 +1,5 @@
 var Navi = [
   {
-    href: '/mobile.html',
-    text: 'Start'
-  },
-  {
-    href: '/search.html',
-    text: 'Suche'
-  },
-  {
     href: '/about.html',
     text: 'Über'
   },

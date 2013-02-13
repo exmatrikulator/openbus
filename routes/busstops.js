@@ -84,5 +84,40 @@ exports.xhr = function(req, res){
 	
 
 	res.json(aBusstops);
+};
 
+
+exports.typeahead = function(req, res){ 
+{
+
+  var query = req.query.query;
+  var exp = new RegExp('^' + query, 'i');
+
+  
+
+  var stations = {};
+
+  for(var i = 0, x = busstops.length; i < x; i += 1){
+    if(exp.test(busstops[i].wswName) === true){
+      stations[busstops[i].wswName] = busstops[i];
+    }
+  }
+  var typeaheadSort = [];
+  for(var name in stations){
+    typeaheadSort.push(name);
+  }
+  typeaheadSort.sort();
+  
+  var typeahead = {};
+  for(var i = 0, x = typeaheadSort.length; i < x; i += 1){
+    var station = stations[typeaheadSort[i]];
+    typeahead[station.wswName] = {
+      lat: station.lat,
+      lng: station.lng,
+      name: station.wswName
+    };
+  }
+  
+    res.json({"stations": typeahead});
+}
 };

@@ -12,7 +12,7 @@ exports.setCachePath = function(path){
 
 
 // In Minutes 
-var cacheExpires = 10;
+var cacheExpires = 1000;
 
 var cacheName = function(name){
   name = name
