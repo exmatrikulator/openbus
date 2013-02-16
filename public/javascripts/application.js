@@ -338,16 +338,12 @@ var Map = (function(){
   };
   
   var ready = function(){
-    
-    //Busstop.loadBusses('Alter Markt');
-    //return;
+
     $map = $('#map');
     scaleMap();
     addGoogleMap();
 
   };
-  
-  
   $(document).ready(
     function(){
       var typeahead = {};
@@ -375,6 +371,21 @@ var Map = (function(){
     scaleMap:scaleMap
   }  
 })();
+
+
+$(document).ready(
+  function(){ 
+    $().smartWebBanner({
+        title: "OpenBus", 
+        author: "Bastian Sackermann", 
+        showFree: false, 
+        daysHidden: 0, 
+        daysReminder: 3, 
+        debug: false 
+    }); 
+  }
+);
+
 
 
 window.addEventListener("load",function() {
