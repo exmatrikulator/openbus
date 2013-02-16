@@ -1,5 +1,6 @@
 var Q = require('q')
 , http = require('http')
+, Departures = require('./departures.js').Departures
 ;
 
 var fs = require('fs');
@@ -12,7 +13,7 @@ exports.setCachePath = function(path){
 
 
 // In Minutes 
-var cacheExpires = 1000;
+var cacheExpires = 100000;
 
 var cacheName = function(name){
   name = name
@@ -32,7 +33,7 @@ exports.getCacheName = cacheName;
  * Read Cache as a Promise 
  * Resolved, when cachefile exists and is readable and is json and is not older then expired  
  */
-exports.readCache = function(name){
+var readCache = function(name){
 
   var deferred = Q.defer();
 
@@ -80,7 +81,7 @@ exports.readCache = function(name){
   return deferred.promise;
 }
 
-exports.requestData = function(name){
+var requestData = function(name){
 
   var deferred = Q.defer();
 
@@ -112,10 +113,46 @@ exports.requestData = function(name){
   });
 
   requestBusses.end();
+  return deferred.promise;
+};
+
+var parse = function(data){
+  var departures = Departures(data);
+  //data = departures.getData();
+  data = departures.getNextDepartures(10);
+  return data;
+}
+
+exports.get = function(name, options){
+  if(options === undefined){
+    options = {};
+  }
+  if(options.useCache === undefined){
+    options.useCache = true;
+  }
+  
+  var deferred = Q.defer();
+  
+  if(options.useCache === true){
+     readCache(name)
+    .then(function(cachedJson){
+      deferred.resolve(parse(cachedJson));
+    })
+    .fail(
+      function(error){
+      requestData(name)
+      .then(function(requestJson){
+        deferred.resolve(parse(requestJson));
+      })
+      .fail(function(){
+        deferred.reject('request error');
+      });
+    }
+  );
+    
+  }
 
   
   
-  
-  
   return deferred.promise;
-};
+}

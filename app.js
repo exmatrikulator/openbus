@@ -7,7 +7,7 @@ var express = require('express')
   , http = require('http');
 
 var routes = {
-  maps:require('./routes/index'),
+  maps:require('./routes/maps'),
   text:require('./routes/text'),
   busstops : require('./routes/busstops')
 };
@@ -39,8 +39,8 @@ app.get('/', routes.maps.mobile);
 app.get('/mobile.html', routes.maps.mobile);
 app.get('/about.html', routes.text.about);
 
-app.get('/xhr/points/:startlat/:startlng/:endlat/:endlng', routes.busstops.xhr);
-app.get('/xhr/busstop/:name', routes.busstops.points);
+app.get('/xhr/points/:startlat/:startlng/:endlat/:endlng', routes.busstops.points);
+app.get('/xhr/busstop/:name', routes.busstops.busstop);
 app.get('/xhr/typeahead', routes.busstops.typeahead);
 
 
