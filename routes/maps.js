@@ -5,7 +5,7 @@ exports.mobile = function(req, res){
   var navigation = Navigation(req.route);
   console.log(navigation);
   //setTimeout(function(){
-    res.render('mobile2', { title: 'Express', navigation:navigation });  
+    res.render('index', { title: 'Express', navigation:navigation });  
   //},2000)
   
 };

@@ -1,26 +1,27 @@
-doctype 5
-html
-  head
-    meta(name="viewport", content="initial-scale=1.0, user-scalable=no")
-    meta(charset="utf-8")
-    title Free WSW 
-    script(src="http://maps.googleapis.com/maps/api/js?libraries=geometry&key=AIzaSyDBoyVRJC-572Wj7Pfgf10Z9OjRHHDkgOE&v=3.exp&sensor=false")
-    script(src="/javascripts/jquery.min.js")
-    script(src="/javascripts/maps2.js")
-    link(rel='stylesheet', href='/stylesheets/style.css')
-    
-body
-  div#busMap
-  div#dmp
-    div
-      | Map lat
-      div#mapLat
-    div
-      | Map lng
-      div#mapLng
-    div
-      | Map lng
-      div#mapZoom
-    div#streetview
-  div#overlay
-    h1 Busshaltestelle
+extends layout
+
+block content
+  .container
+    .row
+      div#content.span12
+          div#map
+          #busstopDetail.modal.hide.fade
+            .modal-header
+                button.close(type='button', data-dismiss='modal') ×
+                h3 Modal header
+              .modal-body
+                  ul#tabs.nav.nav-tabs
+                    li.active
+                      a(href="#next") Überblick
+                    li
+                      a(href="#lines") Linien
+                    li
+                      a(href="#streetview") Streetview
+                   
+                  div.tab-content
+                    div#next.tab-pane.active
+                    div#lines.tab-pane
+                    div#streetview.tab-pane
+              .modal-footer
+                button.btn(data-dismiss='modal') Schließen
+
