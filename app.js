@@ -39,11 +39,9 @@ app.get('/', routes.maps.mobile);
 app.get('/mobile.html', routes.maps.mobile);
 app.get('/about.html', routes.text.about);
 
-app.get('/busstops.xhr/:startlat/:startlng/:endlat/:endlng', routes.busstops.xhr);
-app.get('/busstops.proxy/:name', routes.busstops.proxy);
-app.get('/busstops/typeahead.xhr', routes.busstops.typeahead);
-
-app.get('/filter.html', routes.busstops.filter);
+app.get('/xhr/points/:startlat/:startlng/:endlat/:endlng', routes.busstops.xhr);
+app.get('/xhr/busstop/:name', routes.busstops.points);
+app.get('/xhr/typeahead', routes.busstops.typeahead);
 
 
 //http.createServer(app).listen(app.get('port'), '192.168.2.105', function(){

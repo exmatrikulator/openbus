@@ -5,7 +5,7 @@ var
   ,busstop = require('../modules/busstop')
 
 ;
-exports.proxy = function(req, res){
+exports.busstop = function(req, res){
 
   var name = req.params.name;
   name = decodeURIComponent(name);
@@ -31,7 +31,7 @@ exports.proxy = function(req, res){
 
 
 
-exports.xhr = function(req, res){	
+exports.points = function(req, res){	
 	var box = {
 	  start: {
 	    lat:parseFloat(req.params.startlat),

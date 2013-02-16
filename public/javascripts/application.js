@@ -298,7 +298,7 @@ var Busstop = (function(){
   var loadBusses = function(title){
     $.ajax({
         dataType: "json",
-        url: '/busstops.proxy/' + title,
+        url: '/xhr/busstop/' + title,
         success: function(data){
           var departures = Departures(data);
           addTabs(departures);
@@ -433,7 +433,7 @@ var Map = (function(){
       };
       $.ajax({
           dataType: "json",
-          url: '/busstops.xhr/' + box.start.lat + '/' + box.start.lng + '/' + box.end.lat + '/' + box.end.lng,
+          url: '/xhr/points/' + box.start.lat + '/' + box.start.lng + '/' + box.end.lat + '/' + box.end.lng,
           success: addMarkers
       });
     
@@ -487,7 +487,7 @@ var Map = (function(){
       var typeahead = {};
       $('#stations').typeahead({
           source: function (query, process) {
-              return $.get('/busstops/typeahead.xhr', { query: query }, function (data) {
+              return $.get('/xhr/typeahead', { query: query }, function (data) {
                   typeahead = data.stations;
                   var autocomplete = [];
                   for(key in typeahead){
