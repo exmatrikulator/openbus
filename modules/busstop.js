@@ -13,7 +13,7 @@ exports.setCachePath = function(path){
 
 
 // In Minutes 
-var cacheExpires = 100000;
+var cacheExpires = 10;
 
 var cacheName = function(name){
   name = name
@@ -81,6 +81,8 @@ var readCache = function(name){
   return deferred.promise;
 }
 
+exports.readCache = readCache;
+
 var requestData = function(name){
 
   var deferred = Q.defer();
@@ -115,6 +117,7 @@ var requestData = function(name){
   requestBusses.end();
   return deferred.promise;
 };
+exports.requestData = requestData;
 
 var parse = function(data){
   var departures = Departures(data);

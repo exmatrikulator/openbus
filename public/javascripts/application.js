@@ -17,7 +17,7 @@ var TimeTo = function(time){
 
   now = Date.parse(now.toGMTString());
   
-  var to = Date.parse(time.toGMTString());
+  var to = Date.parse(time);
   
   var diff = Math.round( (to - now) / 1000 / 60);
   
@@ -34,141 +34,9 @@ var TimeTo = function(time){
     till.hours = Math.floor(diff / 60)
     till.minutes = (diff - till.hours * 60);
   }
-
   return till;  
 };
 
-
-var Departures = function(orginalJSON){
-  var data = {}
-  var depatures = [];  
-  var busses = {};
-
-
-  var brokenDateRegEx  = /^-(\d+)-(\d+)/;
-  
-  var structureByLine = function(){
-    for(var i = 0, x = data.departures.length; i < x; i += 1){
-      if(busses[data.departures[i].number] === undefined){
-        busses[data.departures[i].number] = {
-          'meta':{
-            number:data.departures[i].number,
-            type:data.departures[i].type,
-            directions:[]
-          },
-          'directions':{}
-        };
-      }
-      if(busses[data.departures[i].number].directions[data.departures[i].direction] === undefined){
-        busses[data.departures[i].number].directions[data.departures[i].direction] = [];
-        var direction = data.departures[i].direction;
-        busses[data.departures[i].number].meta.directions.push(direction);
-      }
-
-      busses[data.departures[i].number].directions[data.departures[i].direction].push(data.departures[i]);
-    }  
-  };
-  
-  /**
-   * Add add missing year (for some reason the api returns date in format"-mm-dd") and add a date 
-   */
-  var setTimestamp = function(){
-    for(var i = 0, x = data.departures.length; i < x; i += 1){
-      var departure = data.departures[i];
-  
-      var broken = brokenDateRegEx.exec(departure.date);
-      if(broken !== null){
-        var date = new Date();
-        departure.date = date.getFullYear() + departure.date
-      }
-      departure.Date = new Date(departure.date + ' ' + departure.time); 
-      data.departures[i] = departure;
-    }
-  }; 
-
-  var getLines = function(){
-    var lines = [];
-    for(var line in busses){
-      lines.push(line);
-    }
-    return lines;
-  } 
-
-  var getLine = function(line){
-    if(busses[line] === undefined){
-      return false;
-    }
-    return busses[line];
-  }; 
-
-  var getDirections = function(line){
-    if(busses[line] === undefined){
-      return false;
-    }
-    return busses[line].meta.directions;
-  } 
-
-  /**
-   * get the next (limit) depatures per line and direction ordered by time  
-   */
-  var getNextDepartures = function(limit){
-    limit = (limit === undefined) ? 1 : limit;
-    var nextDepartures = [];
-    
-    for(var line in busses){
-      var bus = busses[line];
-      
-      for(var direction in bus.directions){
-        var depatures = bus.directions[direction];
-        var sliceLimit = (depatures.length < limit) ? depatures.length: limit;
-        for(var i = 0, x = sliceLimit; i < x; i += 1){
-          nextDepartures.push(depatures[i]);  
-        }
-      } 
-    }
-    
-    var orderByTime = {};
-    var times = [];
-    
-    for(var i = 0, x = nextDepartures.length; i < x; i += 1){
-      var nextDeparture = nextDepartures[i];
-      var timestamp = Date.parse(nextDeparture.Date.toGMTString());
-      if(orderByTime[timestamp] === undefined){
-        orderByTime[timestamp] = [];
-        times.push(timestamp);
-      }
-      orderByTime[timestamp].push(nextDeparture);
-    }
-    times.sort(function (a, b) {return a - b;});
-  
-    nextDepartures = [];
-    
-    for(var i = 0, x = times.length; i < x; i += 1){
-      var byTime = orderByTime[times[i]];
-
-      for(var y = 0, z = byTime.length; y < z; y += 1){
-        nextDepartures.push(byTime[y]);
-      }
-        
-    }
-    return nextDepartures;
-  }
-  
-  var parseData = function(){
-    data = orginalJSON;
-    setTimestamp();
-    structureByLine();
-  };
-  parseData();
-  
-  
-  return{
-    getLine:getLine,
-    getLines:getLines,
-    getDirections:getDirections,
-    getNextDepartures:getNextDepartures
-  };
-};
 
 var Busstop = (function(){
   var $modal = null;
@@ -256,11 +124,10 @@ var Busstop = (function(){
   };
   
   var addOverview = function(departures){
-    var nextDepartures = departures.getNextDepartures();
     
     var html = [];
     html.push('<ul class="next">');    
-    $(nextDepartures).each(function(index, item){
+    $(departures).each(function(index, item){
       var timeTo = TimeTo(item.Date);
       if(timeTo.hour === 0 && timeTo.minutes < 0){
         return true;
@@ -279,7 +146,7 @@ var Busstop = (function(){
     $next.html(html.join(''))
   };
   
-  var addTabs = function(departures){
+  var addTabs = function(data){
     if(createTabs === true){
       $('#tabs.nav-tabs li a').click(function (e) {
         e.preventDefault();
@@ -289,7 +156,7 @@ var Busstop = (function(){
       createTabs = false;
     }
     
-    addOverview(departures);
+    addOverview(data);
     
     show();
     
@@ -300,8 +167,7 @@ var Busstop = (function(){
         dataType: "json",
         url: '/xhr/busstop/' + title,
         success: function(data){
-          var departures = Departures(data);
-          addTabs(departures);
+          addTabs(data);
         }
     });
 
