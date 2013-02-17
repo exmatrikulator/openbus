@@ -56,6 +56,7 @@
 	{
 		var ready = function()
 		{
+			OpenBus.Busstop.ready();
 			OpenBus.Map.ready();
 		};
 

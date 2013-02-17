@@ -31,9 +31,9 @@
 			var latLng = marker.getPosition()
 	
 			var headings = [];
-			for(var i = 0, x = marker._data.length; i < x; i += 1)
+			for(var i = 0, x = OpenBus.Busstops[marker.title].length; i < x; i += 1)
 			{
-				var pos = new google.maps.LatLng(marker._data[i].lat, marker._data[i].lng);			
+				var pos = new google.maps.LatLng(OpenBus.Busstops[marker.title][i].lat, OpenBus.Busstops[marker.title][i].lng);
 				var heading = google.maps.geometry.spherical.computeHeading(latLng, pos);
 				headings.push(heading);
 			}
@@ -59,7 +59,7 @@
 			
 			$(departures).each(function(index, item)
 			{
-				var timeTo = TimeTo(item.Date);
+				var timeTo = OpenBus.Utils.TimeTo(item.Date);
 				if(timeTo.hour === 0 && timeTo.minutes < 0)
 				{
 					return true;
@@ -74,7 +74,7 @@
 					item.timeTo = timeTo.minutes + ':' + timeTo.minutes + ' h';
 				}
 			
-				var tpl = Tpl.parse(item, '<li><div><span class="badge badge-info">#{number}</span> Richtung <strong>#{direction}</strong></div><div>fährt in <strong>#{timeTo}</strong></div>#{Date}</li>');
+				var tpl = OpenBus.Utils.Tpl.parse(item, '<li><div><span class="badge badge-info">#{number}</span> Richtung <strong>#{direction}</strong></div><div>fährt in <strong>#{timeTo}</strong></div>#{Date}</li>');
 				html.push(tpl);
 			});
 			html.push('</ul>');    
@@ -115,8 +115,9 @@
 			loadBusses(marker.title);
 		
 			title(marker.title);
-			show();
+
 			getStreetview(marker);
+			show();
 		};
 		
 		var ready = function()
@@ -132,7 +133,8 @@
 			hide:hide,
 			show:show,
 			showBusDetails:showBusDetails,
-			loadBusses:loadBusses
+			loadBusses:loadBusses,
+			ready:ready
 		};
 	})();
 
