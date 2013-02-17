@@ -226,13 +226,6 @@ var Map = (function(){
     $map.css('height', height + 'px');
     
   };
-
-    var removeMarkers = function(){
-      for(var i = 0, x = markers.length; i < x; i += 1){
-       markers[i].setMap(null); 
-      }
-      markers = [];
-    };
     
    var addMarker = function(markerData){
       
@@ -259,9 +252,6 @@ var Map = (function(){
         markers.push(marker)
         google.maps.event.addListener(marker, 'click', function(){
           Busstop.showBusDetails(marker);
-          return;
-          getStreetview(marker);
-          loadBusses(marker);
         });
     
       return;
@@ -270,38 +260,10 @@ var Map = (function(){
     
     var addMarkers = function(json){
       
-      removeMarkers()
-    for(var name in json){
+	for(var name in json){
         addMarker(json[name]);
       }      
-      return;
-      for(var i = 0, x = json.length; i < x; i += 1){
-        addMarker(json[i]);
-      }
-    };
-
-
-  var loadMarkers = function(){
-      if(mapReady === false){
-        mapReady = true;
-      }
-      var box = {
-        start: {
-          lat:map.getBounds().getSouthWest().lat(),
-          lng:map.getBounds().getSouthWest().lng()
-        },
-        end: {
-          lat:map.getBounds().getNorthEast().lat(),
-          lng:map.getBounds().getNorthEast().lng()
-        }
-      };
-      $.ajax({
-          dataType: "json",
-          url: '/xhr/points/' + box.start.lat + '/' + box.start.lng + '/' + box.end.lat + '/' + box.end.lng,
-          success: addMarkers
-      });
-    
-  };
+    }
 
   var createGoogleMap = function (position) {
     var startPos = new google.maps.LatLng(position.lat, position.lng);
@@ -313,7 +275,7 @@ var Map = (function(){
     };
     map = new google.maps.Map(document.getElementById('map'), options);
     
-  google.maps.event.addListener(map, 'tilesloaded', loadMarkers);
+  addMarkers(busstops);
     
   }
   var addGoogleMap = function(){

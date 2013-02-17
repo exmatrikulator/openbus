@@ -23,8 +23,9 @@ exports.allpoints = function(req, res){
 		allBusstops[busstops[i].wswName].push(busstop);  
     
      }
-  
-  res.json(allBusstops);
+  res.contentType('text/jacascript');
+  //@todo Namespacing
+  res.send('var busstops = ' + JSON.stringify(allBusstops) + ';');
 	
 };
 exports.points = function(req, res){  
