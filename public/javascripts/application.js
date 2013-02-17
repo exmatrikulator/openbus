@@ -78,48 +78,8 @@ var Busstop = (function(){
       }
     };
 
-  var addAccordion = function(busses){
-    var html = [];
-    for(var key in busses){
-      var buss = busses[key];
-
-      var item = [];
-      item.push('<div class="accordion-group">');
-        item.push('<div class="accordion-heading">');
-          item.push('<a class="accordion-toggle" data-toggle="collapse" data-parent="#timeTable" href="#bus' + buss.meta.number + '">');
-            item.push(buss.meta.number + ' (' + buss.meta.type + ')');
-          item.push('</a>');
-        item.push('</div>');
-        item.push('<div id="bus' + buss.meta.number + '" class="accordion-body collapse">');
-          item.push('<div class="accordion-inner">');
-            item.push('<div>');
-              for(var direction in buss.lines){
-                item.push('<div>Richtung: ' + direction + '</div>');
-                item.push('<ul>');
-                  for(var i = 0, x = buss.lines[direction].length; i < x; i += 1){
-                    item.push('<li>');
-                      item.push(buss.lines[direction][i].time);
-                      if(buss.lines[direction][i].plattform !== undefined){
-                        item.push( '(' + buss.lines[direction][i].plattform + ')');
-                      }
-                    item.push('</li>');
-                  }
-                item.push('</ul>');
-              }
-            item.push('</div>');
-
-          item.push('</div>');
-        item.push('</div>');
-      item.push('</div>');
-      html.push(item.join(''));
-    }
-    $timeTable.html(html.join(''));
-    
-  };
-  
   var clearTabs = function(){
     $next.html('');
-    $lines.html('');
     $streetview.html('');
   };
   
@@ -146,7 +106,7 @@ var Busstop = (function(){
     $next.html(html.join(''))
   };
   
-  var addTabs = function(data){
+  var addTabs = function(){
     if(createTabs === true){
       $('#tabs.nav-tabs li a').click(function (e) {
         e.preventDefault();
@@ -154,12 +114,7 @@ var Busstop = (function(){
       })
       createTabs = false;
     }
-    clearTabs();
-    
-    addOverview(data);
-    
-    show();
-    
+    clearTabs();    
   };
   
   var loadBusses = function(title){
@@ -167,20 +122,17 @@ var Busstop = (function(){
         dataType: "json",
         url: '/xhr/busstop/' + title,
         success: function(data){
-          addTabs(data);
+	       addOverview(data);
         }
     });
   }; 
   
   
   var showBusDetails = function(marker){
-    var data = marker._data;
+    addTabs();
+    loadBusses(marker.title);
     
-    var titleFast = data[0].name;
-    
-    loadBusses(titleFast);
-    
-    title(titleFast);
+    title(marker.title);
     show();
     getStreetview(marker);
   };
@@ -191,7 +143,6 @@ var Busstop = (function(){
     $timeTable = $('#busstopDetail').find('#timeTable');
     
     $next = $('#next');
-    $lines = $('#lines');
     $streetview = $('#streetview');
     
     
@@ -216,7 +167,6 @@ var Map = (function(){
     lng:7.21111099999995
   }
   
-  var markers = [];
   var scaleMap = function(){
      // scaling #map to fit into viewport     
     var pos = $map.position();
@@ -227,7 +177,7 @@ var Map = (function(){
     
   };
     
-   var addMarker = function(markerData){
+   var addMarker = function(markerName, markerData){
       
       var center = {
         lat:0,
@@ -246,23 +196,18 @@ var Map = (function(){
         var marker = new google.maps.Marker({
           position: pos, 
           map: map, 
-          title:markerData[0].name,
+          title:markerName,
           _data:markerData
         });     
-        markers.push(marker)
         google.maps.event.addListener(marker, 'click', function(){
           Busstop.showBusDetails(marker);
         });
-    
-      return;
-      
     }
     
     var addMarkers = function(json){
-      
-	for(var name in json){
-        addMarker(json[name]);
-      }      
+		for(var name in json){
+	        addMarker(name, json[name]);
+	      }      
     }
 
   var createGoogleMap = function (position) {
