@@ -1,6 +1,10 @@
 var Navi = [
   {
-    href: '/about.html',
+    href: '/',
+    text: 'Abfahrtsmonitor'
+  },
+  {
+    href: '/ueber-openbus.html',
     text: 'Über'
   },
   {

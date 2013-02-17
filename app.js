@@ -23,7 +23,7 @@ app.configure(function(){
   app.use(express.favicon());
   app.use(express.logger('dev'));
   app.use(express.bodyParser());
-    app.use(express.compress());
+  app.use(express.compress());
   app.use(express.methodOverride());
   app.use(express.cookieParser('your secret here'));
   app.use(express.session());
@@ -36,9 +36,9 @@ app.configure('development', function(){
   app.use(express.errorHandler());
 });
 
-app.get('/', routes.maps.mobile);
-app.get('/mobile.html', routes.maps.mobile);
-app.get('/about.html', routes.text.about);
+app.get('/', routes.maps.index);
+app.get('/impressum.html', routes.text.impress);
+app.get('/ueber-openbus.html', routes.text.about);
 
 app.get('/js/allpoints', routes.busstops.allpoints);
 app.get('/xhr/points/:startlat/:startlng/:endlat/:endlng', routes.busstops.points);
