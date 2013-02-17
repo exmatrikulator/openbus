@@ -23,6 +23,7 @@ app.configure(function(){
   app.use(express.favicon());
   app.use(express.logger('dev'));
   app.use(express.bodyParser());
+    app.use(express.compress());
   app.use(express.methodOverride());
   app.use(express.cookieParser('your secret here'));
   app.use(express.session());
@@ -39,6 +40,7 @@ app.get('/', routes.maps.mobile);
 app.get('/mobile.html', routes.maps.mobile);
 app.get('/about.html', routes.text.about);
 
+app.get('/js/allpoints', routes.busstops.allpoints);
 app.get('/xhr/points/:startlat/:startlng/:endlat/:endlng', routes.busstops.points);
 app.get('/xhr/busstop/:name', routes.busstops.busstop);
 app.get('/xhr/typeahead', routes.busstops.typeahead);

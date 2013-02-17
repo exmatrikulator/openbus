@@ -138,7 +138,7 @@ var Busstop = (function(){
       else{
         item.timeTo = timeTo.minutes + ':' + timeTo.minutes + ' h';
       }
-      var tpl = Tpl.parse(item, '<li><div><span class="badge badge-info">#{number}</span> Richtung <strong>#{direction}</strong></div><div>fährt in <strong>#{timeTo}</strong></div></li>');
+      var tpl = Tpl.parse(item, '<li><div><span class="badge badge-info">#{number}</span> Richtung <strong>#{direction}</strong></div><div>fährt in <strong>#{timeTo}</strong></div>#{Date}</li>');
       html.push(tpl);
     });
     html.push('</ul>');    
@@ -152,9 +152,9 @@ var Busstop = (function(){
         e.preventDefault();
         $(this).tab('show');
       })
-      clearTabs()
       createTabs = false;
     }
+    clearTabs();
     
     addOverview(data);
     
@@ -170,8 +170,6 @@ var Busstop = (function(){
           addTabs(data);
         }
     });
-
-    
   }; 
   
   
@@ -334,13 +332,13 @@ var Map = (function(){
     {
       createGoogleMap(defaultCenter);
     }
-    
   };
   
   var ready = function(){
 
     $map = $('#map');
     scaleMap();
+    
     addGoogleMap();
 
   };

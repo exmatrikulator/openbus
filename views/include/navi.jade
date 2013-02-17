@@ -7,13 +7,14 @@
         span.icon-bar
       a.brand(href='./index.html') OpenBus
       .nav-collapse.collapse
-        ul.nav
+        - /*ul.nav
           li
             a#geolocation(href='#') Aktuelle Position
           li
             a#geolocation(href='#') Haltestelle finden
         form.hidden-phone.navbar-search.pull-left
           input#stations.search-query.span2(type="text", placeholder="Haltestelle suchen")
+        -*/
         ul.nav.pull-right
           each item in navigation
             if item.active === true

@@ -6,6 +6,27 @@ var
 
 ;
 
+exports.allpoints = function(req, res){  
+	var allBusstops = {};
+	for(var i = 0, x = busstops.length; i < x; i += 1){
+		if(busstops[i].wswName === undefined){
+			continue;
+		}
+		
+		if(allBusstops[busstops[i].wswName] === undefined){
+			allBusstops[busstops[i].wswName] = [];
+		}
+		
+		var busstop = {};
+		busstop.lat = busstops[i].lat;
+		busstop.lng = busstops[i].lng;
+		allBusstops[busstops[i].wswName].push(busstop);  
+    
+     }
+  
+  res.json(allBusstops);
+	
+};
 exports.points = function(req, res){  
   var box = {
     start: {
