@@ -1,6 +1,10 @@
 openbus
 =======
 
+git clone https://github.com/Samisdat/openbus.git ./some/path/
+
+cd ./some/path/
+
 git submodule init
 
 git submodule update
