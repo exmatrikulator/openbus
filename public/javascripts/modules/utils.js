@@ -27,7 +27,7 @@
 		var diff = Math.round( (to - now) / 1000 / 60);
 
 		var till = {
-			hour: 0,
+			hours: 0,
 			minutes: 0
 		};
 

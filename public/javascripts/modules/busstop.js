@@ -64,17 +64,38 @@
 				{
 					return true;
 				}
-				
-				if(timeTo.hour === 0)
+				if(timeTo.hours === 0)
 				{
-					item.timeTo = timeTo.minutes + ' min';
+					if(timeTo.minutes === 0)
+					{
+						item.timeTo = '<strong>jetzt</strong>';
+					}
+					if(timeTo.minutes === 1)
+					{
+						item.timeTo = ' in <strong>einer Minute</strong>';
+					}
+					else
+					{
+						item.timeTo = ' in <strong>' + timeTo.minutes + ' Minuten</strong>';
+					}
 				}
-				else
+				else if(timeTo.hours === 1)
 				{
-					item.timeTo = timeTo.minutes + ':' + timeTo.minutes + ' h';
+					item.timeTo = ' in <strong>einer Stunde</strong> und ';
+					if(timeTo.minutes === 1)
+					{
+						item.timeTo += '<strong>einer Minute</strong>';
+					}
+					else
+					{
+						item.timeTo += '<strong>' + timeTo.minutes + ' Minuten</strong>';
+					}
+				}
+				else{
+					item.timeTo = 'in mehr als <strong> zwei Stunden</strong>';
 				}
 			
-				var tpl = OpenBus.Utils.Tpl.parse(item, '<li><div><span class="badge badge-info">#{number}</span> Richtung <strong>#{direction}</strong></div><div>fährt in <strong>#{timeTo}</strong></div>#{Date}</li>');
+				var tpl = OpenBus.Utils.Tpl.parse(item, '<li><div><span class="badge badge-info">#{number}</span> Richtung <strong>#{direction}</strong></div><div>kommt #{timeTo}</div></li>');
 				html.push(tpl);
 			});
 			html.push('</ul>');    
