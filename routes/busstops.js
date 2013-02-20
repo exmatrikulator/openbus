@@ -35,6 +35,9 @@ exports.busstop = function(req, res)
 	var name = req.params.name;
 	name = decodeURIComponent(name);
 
+	name = name.replace('__','/');
+
+
 	busstop.get(name)
 	.then(function(data){
 		res.json(data);

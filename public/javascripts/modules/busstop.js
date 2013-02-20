@@ -119,6 +119,7 @@
 		
 		var loadBusses = function(title)
 		{
+			title = title.replace('/','__');
 			$.ajax(
 			{
 				dataType: "json",

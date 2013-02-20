@@ -43,7 +43,7 @@ app.get('/xhr/busstop/:name', routes.busstops.busstop);
 app.get('/xhr/typeahead', routes.busstops.typeahead);
 
 
-//http.createServer(app).listen(app.get('port'), '192.168.2.105', function(){
-http.createServer(app).listen(app.get('port'), '127.0.0.1', function(){
+http.createServer(app).listen(app.get('port'), '192.168.2.105', function(){
+//http.createServer(app).listen(app.get('port'), '127.0.0.1', function(){
   console.log("Express server listening on port " + app.get('port'));
 });

@@ -1,24 +1,20 @@
 extends layout
 
 block content
-  .container
-    .row
-      div#content.span12
-          div#map
-          #busstopDetail.modal.hide.fade
-            .modal-header
-                button.close(type='button', data-dismiss='modal') ×
-                h3 Modal header
-              .modal-body
-                  ul#tabs.nav.nav-tabs
-                    li.active
-                      a(href="#next") Überblick
-                    li
-                      a(href="#streetview") Streetview
-                   
-                  div.tab-content
-                    div#next.tab-pane.active
-                    div#streetview.tab-pane
-              .modal-footer
-                button.btn(data-dismiss='modal') Schließen
-
+	div#map
+	#busstopDetail.modal.hide.fade
+		.modal-header
+				button.close(type='button', data-dismiss='modal') ×
+				h3 Modal header
+			.modal-body
+					ul#tabs.nav.nav-tabs
+						li.active
+							a(href="#next") Überblick
+						li
+							a(href="#streetview") Streetview
+					div.tab-content
+						div#next.tab-pane.active
+						div#streetview.tab-pane
+			.modal-footer
+				button.btn(data-dismiss='modal') Schließen
+block footer
