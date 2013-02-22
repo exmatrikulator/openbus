@@ -3,3 +3,5 @@ node_modules
 node_modules/*
 data/cache/*.json
 .monitor
+
+config.js
