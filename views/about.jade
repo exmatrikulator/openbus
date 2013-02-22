@@ -6,235 +6,111 @@ block content
 			.span3.bs-docs-sidebar
 				ul.nav.nav-list.bs-docs-sidenav
 					li
-						a(href='#download-bootstrap')
+						a(href='#openbus')
 							i.icon-chevron-right
-							| Download
+							| Openbus
 					li
-						a(href='#file-structure')
+						a(href='#node')
 							i.icon-chevron-right
-							| File structure
+							| Node.js
 					li
-						a(href='#contents')
+						a(href='#bootstrap')
 							i.icon-chevron-right
-							| What's included
+							| Bootstrap
 					li
-						a(href='#html-template')
+						a(href='#github')
 							i.icon-chevron-right
-							| HTML template
+							| Github
 					li
-						a(href='#examples')
+						a(href='#lizenz')
 							i.icon-chevron-right
-							| Examples
+							| Lizenz
 					li
-						a(href='#what-next')
+						a(href='#impressum')
 							i.icon-chevron-right
-							| What next?
+							| Impressum
 			.span9
-				//
-					Download
-				section#download-bootstrap
+				section#openbus
 					.page-header
-						h1 1. Download
+						h1 Openbus
 					p.lead
-						| Before downloading, be sure to have a code editor (we recommend
-						a(href='http://sublimetext.com/2') Sublime Text 2
-						| ) and some working knowledge of HTML and CSS. We won't walk through the source files here, but they are available for download. We'll focus on getting started with the compiled Bootstrap files.
-					.row-fluid
-						.span6
-							h2 Download compiled
-							p
-								strong Fastest way to get started:
-								| get the compiled and minified versions of our CSS, JS, and images. No docs or original source files.
-							p
-								a.btn.btn-large.btn-primary(href='/bootstrap/docs/assets/bootstrap.zip') Download Bootstrap
-						.span6
-							h2 Download source
-							p
-								| Get the original files for all CSS and JavaScript, along with a local copy of the docs by downloading the latest version directly from GitHub.
-							p
-								a.btn.btn-large(href='https://github.com/twitter/bootstrap/zipball/master') Download Bootstrap source
-				//
-					File structure
-				section#file-structure
+						| Ich habe Openbus als Techdemo für den 
+						a(href='http://oddw.de') OpenDataDay in Wuppertal
+						|  erstellt. Es ist KEIN fertiges Produkt und strenggenommen geht es hier auch nur zum Teil um Opendata.
+					p
+						| Die Daten zu den Abfahrtzeiten der Busse stammen aus derselben Quelle wie die Daten der 
+						a(href='http://www.wsw-online.de/mobilitaet/App/index.htm') Abfahrtsmonitor-App der WSW
+						|. Die API ist (zumindest öffentlich nicht) dokumentiert, ich gehe aber davon aus, dass die WSW die Daten als offen verstehen wollen wissen, sonst hätte der Server sicher zugemacht, nachdem ich zehntausende Requests auf ihn gefeuert habe... Bei allernächster Gelegenheit frage die bei den Stadtwerken mal nach, ob die Abfahrtsdaten, wie von mir angenommen, OpenDatas sind.
+					p
+						| Politisch wäre es aber durchaus wünschenswert, wenn die WSW ebenso wie alle anderen städtischen Töchter und die Stadt Wuppertal selber, in Zukunft dazu übergehen würde, alle vorhandenen Daten in einer Form zu veröffentlichen, die über offene und dokumentierte Schnittstellen einen Zugriff erlaubt.
+					p Die Positionsdaten der Bushaltestellen kommt von Openstreetmap. die Karten und Streetview-Ansichten kommen offensichtlicherweise von Google. Diese Daten sind zwar (in Maßen) umsonst, aber nicht frei!
+				section#node
 					.page-header
-						h1 2. File structure
+						h1 2. Node.js
 					p.lead
-						| Within the download you'll find the following file structure and contents, logically grouping common assets and providing both compiled and minified variations.
+						| Serverseitig werkelt hier 
+						a(href="http://nodejs.org/") NodeJS 
+						| und das Framework 
+						a(href="http://expressjs.com/") Express
 					p
-						| Once downloaded, unzip the compressed folder to see the structure of (the compiled) Bootstrap. You'll see something like this:
-					pre.prettyprint.
-						\n	bootstrap/
-							├── css/
-							│	 ├── bootstrap.css
-							│	 ├── bootstrap.min.css
-							├── js/
-							│	 ├── bootstrap.js
-							│	 ├── bootstrap.min.js
-							└── img/
-									├── glyphicons-halflings.png
-									└── glyphicons-halflings-white.png
-													
-					p
-						| This is the most basic form of Bootstrap: compiled files for quick drop-in usage in nearly any web project. We provide compiled CSS and JS (
-						code bootstrap.*
-						| ), as well as compiled and minified CSS and JS (
-						code bootstrap.min.*
-						| ). The image files are compressed using
-						a(href='http://imageoptim.com/') ImageOptim
-						| , a Mac app for compressing PNGs.
-					p Please note that all JavaScript plugins require jQuery to be included.
-				//
-					Contents
-				section#contents
+						| Javascript und auch serverseitiges Javascript kann jedeR lernen und benutzen, sonst hätte das hier kan nicht hinbekommen;)
+				section#bootstrap
 					.page-header
-						h1 3. What's included
+						h1 Bootstrap
 					p.lead
-						| Bootstrap comes equipped with HTML, CSS, and JS for all sorts of things, but they can be summarized with a handful of categories visible at the top of the
-						a(href='http://getbootstrap.com') Bootstrap documentation
-						| .
-					h2 Docs sections
-					h4
-						a(href='http://twitter.github.com/bootstrap/scaffolding.html') Scaffolding
-					p
-						| Global styles for the body to reset type and background, link styles, grid system, and two simple layouts.
-					h4
-						a(href='http://twitter.github.com/bootstrap/base-css.html') Base CSS
-					p
-						| Styles for common HTML elements like typography, code, tables, forms, and buttons. Also includes
-						a(href='http://glyphicons.com') Glyphicons
-						| , a great little icon set.
-					h4
-						a(href='http://twitter.github.com/bootstrap/components.html') Components
-					p
-						| Basic styles for common interface components like tabs and pills, navbar, alerts, page headers, and more.
-					h4
-						a(href='http://twitter.github.com/bootstrap/javascript.html') JavaScript plugins
-					p
-						| Similar to Components, these JavaScript plugins are interactive components for things like tooltips, popovers, modals, and more.
-					h2 List of components
-					p
-						| Together, the
-						strong Components
-						| and
-						strong JavaScript plugins
-						| sections provide the following interface elements:
-					ul
-						li Button groups
-						li Button dropdowns
-						li Navigational tabs, pills, and lists
-						li Navbar
-						li Labels
-						li Badges
-						li Page headers and hero unit
-						li Thumbnails
-						li Alerts
-						li Progress bars
-						li Modals
-						li Dropdowns
-						li Tooltips
-						li Popovers
-						li Accordion
-						li Carousel
-						li Typeahead
-					p
-						| In future guides, we may walk through these components individually in more detail. Until then, look for each of these in the documentation for information on how to utilize and customize them.
-				//
-					HTML template
-				section#html-template
+						| Clientseitig benutze ich, weil es so schön ist und ich so faul bin, 
+						a(href="") Bootstrap
+						|.
+				section#github
 					.page-header
-						h1 4. Basic HTML template
+						h1 Github
 					p.lead
-						| With a brief intro into the contents out of the way, we can focus on putting Bootstrap to use. To do that, we'll utilize a basic HTML template that includes everything we mentioned in the
-						a(href='#file-structure') File structure
+						| Openbus ist als komplettes Projekt auf Github:
+					p.lead 
+						a(href='#https://github.com/Samisdat/openbus') Github Repo von Openbus
 						| .
 					p
-						| Now, here's a look at a
-						strong typical HTML file
-						| :
-					pre.prettyprint.linenums.
-						\n<!DOCTYPE html>
-						<html>
-							<head>
-								<title>Bootstrap 101 Template</title>
-							</head>
-							<body>
-								<h1>Hello, world!</h1>
-								<script src="http://code.jquery.com/jquery-latest.js"></script>
-							</body>
-						</html>
-													
-					p
-						| To make this
-						strong a Bootstrapped template
-						| , just include the appropriate CSS and JS files:
-					pre.prettyprint.linenums.
-						\n<!DOCTYPE html>
-						<html>
-							<head>
-								<title>Bootstrap 101 Template</title>
-								<!-- Bootstrap -->
-								<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-							</head>
-							<body>
-								<h1>Hello, world!</h1>
-								<script src="http://code.jquery.com/jquery-latest.js"></script>
-								<script src="js/bootstrap.min.js"></script>
-							</body>
-						</html>
-													
-					p
-						strong And you're set!
-						| With those two files added, you can begin to develop any site or application with Bootstrap.
-				//
-					Examples
-				section#examples
+						| Also fließig forken oder 
+						a(href="https://github.com/Samisdat/openbus/issues") Issues tracken
+						|. Die 
+						a(href="https://github.com/Samisdat/openbus/blob/master/README.md") Readme
+						|  könnte beim Installieren helfen.
+				section#lizenz
 					.page-header
-						h1 5. Examples
+						h1 Lizenz
 					p.lead
-						| Move beyond the base template with a few example layouts. We encourage folks to iterate on these examples and not simply use them as an end result.
-					ul.thumbnails.bootstrap-examples
-						li.span3
-							a.thumbnail(href='examples/starter-template.html')
-								img(src='/bootstrap/docs/assets/img/examples/bootstrap-example-starter.jpg', alt='')
-							h4 Starter template
-							p A barebones HTML document with all the Bootstrap CSS and JavaScript included.
-						li.span3
-							a.thumbnail(href='examples/hero.html')
-								img(src='/bootstrap/docs/assets/img/examples/bootstrap-example-hero.jpg', alt='')
-							h4 Basic marketing site
-							p Featuring a hero unit for a primary message and three supporting elements.
-						li.span3
-							a.thumbnail(href='examples/fluid.html')
-								img(src='/bootstrap/docs/assets/img/examples/bootstrap-example-fluid.jpg', alt='')
-							h4 Fluid layout
-							p Uses our new responsive, fluid grid system to create a seamless liquid layout.
-						li.span3
-							a.thumbnail(href='examples/marketing-narrow.html')
-								img(src='/bootstrap/docs/assets/img/examples/bootstrap-example-marketing-narrow.png', alt='')
-							h4 Narrow marketing
-							p Slim, lightweight marketing template for small projects or teams.
-						li.span3
-							a.thumbnail(href='examples/signin.html')
-								img(src='/bootstrap/docs/assets/img/examples/bootstrap-example-signin.png', alt='')
-							h4 Sign in
-							p Barebones sign in form with custom, larger form controls and a flexible layout.
-						li.span3
-							a.thumbnail(href='examples/sticky-footer.html')
-								img(src='/bootstrap/docs/assets/img/examples/bootstrap-example-sticky-footer.png', alt='')
-							h4 Sticky footer
-							p Pin a fixed-height footer to the bottom of the user's viewport.
-						li.span3
-							a.thumbnail(href='examples/carousel.html')
-								img(src='/bootstrap/docs/assets/img/examples/bootstrap-example-carousel.png', alt='')
-							h4 Carousel jumbotron
-							p
-								| A more interactive riff on the basic marketing site featuring a prominent carousel.
-				//
-					Next
-				section#what-next
+						| Openbus steht unter der 
+						a(href="http://opensource.org/licenses/MIT") MIT-Lizenz
+						|  .
+					p 
+						| Natürlich nur soweit, wie ich lizensieren darf: Die Openstreetmap-Daten, die ich mit ins Git geworfen habe, sind mehr Cache als sonst was. Nur mit diesen Daten kann man sinnvoll einen Fork von Openbus starten.
+					p
+						| Und selbstverständlich ändern vorgecachte Openstreetmap-Daten ihre Lizenz nicht, sondern bleiben weiter Daten von 
+						a(href="http://www.openstreetmap.org/) OpenStreetMap
+						|  - Veröffentlicht unter 
+						a(href="http://opendatacommons.org/licenses/odbl/") ODbL
+						|  .
+				section#impressum
 					.page-header
-						h1 What next?
+						h1 Impressum
 					p.lead
-						| Head to the docs for information, examples, and code snippets, or take the next leap and customize Bootstrap for any upcoming project.
-					a.btn.btn-large.btn-primary(href='./scaffolding.html') Visit the Bootstrap docs
-					a.btn.btn-large(href='./customize.html', style='margin-left: 5px;') Customize Bootstrap
+						| Ist diese kleine Demo ein Telemedium? Ich weiß es nicht, aber für den Fall der Fälle:
+					p
+						| Ich heiße 
+						br
+						strong Bastian Sackermann
+					p 
+						|wohne im
+						br
+						strong
+							| Heimatplan 12
+						br
+						| in
+						br
+						strong
+							| 42117 Wuppertal
+						br
+						| Mails gerne an 
+						br
+						strong
+							| bastian[äht]sackermann.eu

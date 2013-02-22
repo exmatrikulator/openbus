@@ -35,7 +35,6 @@ app.configure('development', function(){
 });
 
 app.get('/', routes.maps.index);
-app.get('/impressum.html', routes.text.impress);
 app.get('/ueber-openbus.html', routes.text.about);
 
 app.get('/js/allpoints', routes.busstops.allpoints);

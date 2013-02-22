@@ -6,10 +6,6 @@ var Navi = [
   {
     href: '/ueber-openbus.html',
     text: 'Über'
-  },
-  {
-    href: '/impressum.html',
-    text: 'Impressum'
   }
 ];
 
