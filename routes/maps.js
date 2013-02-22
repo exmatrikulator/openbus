@@ -5,5 +5,5 @@ exports.index = function(req, res)
 {
 	var navigation = Navigation(req.route);
 
-	res.render('index', { title: 'Express', navigation:navigation });
+	res.render('index', {bodyClass: 'map',title: 'Express', navigation:navigation });
 };

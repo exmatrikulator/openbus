@@ -1,7 +1,9 @@
 doctype 5
 html
 	include include/head
-	body(data-spy='scroll', data-target='.bs-docs-sidebar')
+	- bodyClass = (bodyClass === undefined)?'':bodyClass;
+	- console.log(bodyClass);	
+	body(class='#{bodyClass}', data-spy='scroll', data-target='.bs-docs-sidebar')
 		include include/navi
 		block content
 		block footer
