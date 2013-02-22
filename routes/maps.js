@@ -8,5 +8,5 @@ exports.index = function(req, res)
 {
 	var navigation = Navigation(req.route);
 
-	res.render('index', {bodyClass: 'map',title: 'Express', navigation:navigation, config:config});
+	res.render('index', {bodyClass: 'map',title: 'Openbus - Abfahrtsmonitor', navigation:navigation, config:config});
 };
