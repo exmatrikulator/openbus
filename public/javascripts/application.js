@@ -58,6 +58,8 @@
 		{
 			OpenBus.Busstop.ready();
 			OpenBus.Map.ready();
+			
+			OpenBus.Smartbanner.ready();
 		};
 
 		$(document).ready(ready);
