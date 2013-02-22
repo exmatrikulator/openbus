@@ -27,7 +27,7 @@ script(src='/javascripts/application.js')
 script
 	var _gaq = _gaq || [];
 	_gaq.push(['_setAccount', '#{config.GoogleAnalyticsKey}']);
-	_gaq.push(['_setDomainName', 'openbus.sackermann.eu']);
+	_gaq.push(['_setDomainName', '#{config.IoOrHostname}']);
 	_gaq.push(['_gat._anonymizeIp']);
 	_gaq.push(['_setSiteSpeedSampleRate', 100]);
 	_gaq.push(['_trackPageview']);
