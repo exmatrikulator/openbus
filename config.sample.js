@@ -11,5 +11,6 @@ var GoogleMapskey = 'Your Key';
 var GoogleAnalyticsKey = 'Your Key';
 
 exports.IoOrHostname = IoOrHostname;
+exports.Port = Port;
 exports.GoogleMapskey = GoogleMapskey;
 exports.GoogleAnalyticsKey = GoogleAnalyticsKey;
