@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Simple Polylines</title>
+    <style>
+      html, body, #map-canvas {
+        height: 100%;
+        margin: 0px;
+        padding: 0px
+      }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script src="/osm/628.js"></script>
+    <script>
+// This example creates a 2-pixel-wide red polyline showing
+// the path of William Kingsford Smith's first trans-Pacific flight between
+// Oakland, CA, and Brisbane, Australia.
+
+var nodes = {};
+var ways = [];
+
+for(var i = 0, x = bus.elements.length; i < x; i += 1){
+  var element = bus.elements[i];
+  if(element.type === 'node' && element.lat !== undefined && element.lon !== undefined){
+    nodes[element.id] = {
+      lat: element.lat,
+      lng: element.lon
+    };
+  }
+  else if(element.type === 'way' && element.nodes !== undefined){
+    ways.push(element);
+  }
+}
+function initialize() {
+  
+  var mapOptions = {
+    zoom: 10,
+    center: new google.maps.LatLng(51.2604436, 7.1463839),
+    mapTypeId: google.maps.MapTypeId.TERRAIN
+  };
+
+  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+  var color = '#FF0000';
+
+  for(var i = 0, x = ways.length; i < x; i += 1){
+    var way = ways[i];
+    
+    var polylinePoints = [];
+    
+    for(var j = 0, y = way.nodes.length; j < y; j += 1){
+      var nodeId = way.nodes[j];
+      var node = nodes[nodeId];
+      polylinePoints.push(new google.maps.LatLng(node.lat, node.lng));
+    }
+    
+    color = (color === '#FF0000')?'#00FF00' :'#FF0000';
+    
+    var polyline = new google.maps.Polyline({
+      path: polylinePoints,
+      geodesic: true,
+      strokeColor: color,
+      strokeOpacity: 1.0,
+      strokeWeight: 2
+    }); 
+  
+    polyline.setMap(map); 
+
+    
+  }
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+    </script>
+  </head>
+  <body>
+    <div id="map-canvas"></div>
+  </body>
+</html>

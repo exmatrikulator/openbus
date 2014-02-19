@@ -8,6 +8,8 @@ var 	express = require('express')
 		, config = require('./config')
 ;
 
+console.log(config)
+
 var routes = {
 	maps:require('./routes/maps'),
 	text:require('./routes/text'),

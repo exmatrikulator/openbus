@@ -1,0 +1,651 @@
+node: {"tags":{"highway":"bus_stop","is_in":"Wuppertal,NRW,Germany","name":"Klinikum Barmen"},"id":"272655149","lat":51.2731495,"lon":7.1736408}
+node: {"tags":{"highway":"bus_stop","is_in":"Wuppertal,NRW,Germany","name":"Klinikum Barmen","wheelchair":"yes"},"id":"272655449","lat":51.273026,"lon":7.1737953}
+node: {"tags":{"bench":"yes","bus":"yes","highway":"bus_stop","name":"Bromberger Straße/WSW","shelter":"yes","wheelchair":"yes"},"id":"272668012","lat":51.2778096,"lon":7.1852997}
+node: {"tags":{"bus":"yes","highway":"bus_stop","name":"Bromberger Straße/WSW","wheelchair":"yes"},"id":"272668191","lat":51.277937,"lon":7.1847978}
+node: {"tags":{"highway":"bus_stop","is_in":"Wuppertal,NRW,Germany","name":"Heusnerstraße"},"id":"272672603","lat":51.2736687,"lon":7.1791804}
+node: {"tags":{"highway":"bus_stop","is_in":"Wuppertal,NRW,Germany","name":"Heusnerstraße"},"id":"272673498","lat":51.2731858,"lon":7.1789601}
+node: {"tags":{"highway":"bus_stop","is_in":"Wuppertal,NRW,Germany","name":"Sanderstraße"},"id":"272675077","lat":51.2730389,"lon":7.1777174}
+node: {"tags":{"highway":"bus_stop","is_in":"Wuppertal,NRW,Germany","name":"Sanderstraße"},"id":"272675363","lat":51.2728273,"lon":7.1784044}
+node: {"tags":{"highway":"bus_stop","is_in":"Wuppertal,Germany","name":"Loher Brücke","wheelchair":"yes"},"id":"272683303","lat":51.2676188,"lon":7.1807531}
+node: {"tags":{"highway":"bus_stop","is_in":"Wuppertal,Germany","name":"Loher Brücke","wheelchair":"yes"},"id":"272683347","lat":51.2672709,"lon":7.1807919}
+node: {"tags":{"highway":"bus_stop","name":"Am Cleefchen"},"id":"273290650","lat":51.2839941,"lon":7.176565}
+node: {"tags":{"highway":"bus_stop","name":"Gustav-Heinemann-Straße"},"id":"273290730","lat":51.2893346,"lon":7.1716571}
+node: {"tags":{"highway":"bus_stop","name":"Dönberger Straße"},"id":"273291128","lat":51.2918006,"lon":7.1688347}
+node: {"tags":{"highway":"bus_stop","name":"Giselastraße"},"id":"273291210","lat":51.2947827,"lon":7.1638398}
+node: {"tags":{"highway":"bus_stop","name":"Höhenstraße"},"id":"273291334","lat":51.2968915,"lon":7.1609412}
+node: {"tags":{"highway":"bus_stop","name":"Adlerbrücke","wheelchair":"yes"},"id":"277048024","lat":51.267033,"lon":7.18972}
+node: {"tags":{"highway":"bus_stop","is_in":"Wuppertal,NRW,Germany","name":"Rudolfstraße"},"id":"277507853","lat":51.2691653,"lon":7.1783375}
+node: {"tags":{"highway":"bus_stop","is_in":"Wuppertal,NRW,Germany","name":"Rudolfstraße"},"id":"277507869","lat":51.2695089,"lon":7.1781739}
+node: {"tags":{"highway":"bus_stop","name":"Höchsten St. Josef Krankenhaus","wheelchair":"yes"},"id":"289256169","lat":51.2608939,"lon":7.1429883}
+node: {"tags":{"highway":"bus_stop","name":"Bürgerallee"},"id":"289539919","lat":51.2813373,"lon":7.1961935}
+node: {"tags":{"highway":"bus_stop","name":"Uni-Halle","ref":"615, 645"},"id":"326039683","lat":51.2418477,"lon":7.1525683}
+node: {"tags":{"highway":"bus_stop","name":"Kirchliche Hochschule","route_ref":"643"},"id":"382912462","lat":51.2650572,"lon":7.1710309}
+node: {"tags":{"highway":"bus_stop","name":"Elisenstraße"},"id":"384944255","lat":51.259235,"lon":7.1603669}
+node: {"tags":{"highway":"bus_stop","name":"Diemeltreppe"},"id":"384944264","lat":51.2600831,"lon":7.1625491}
+node: {"tags":{"highway":"bus_stop","name":"Weinberg/Jüdischer Friedhof"},"id":"387804713","lat":51.2743148,"lon":7.1582636}
+node: {"tags":{"highway":"bus_stop","name":"Weinberg/Jüdischer Friedhof"},"id":"387804714","lat":51.2743578,"lon":7.158152}
+node: {"tags":{"highway":"bus_stop","name":"Am Wasserlauf"},"id":"387804715","lat":51.2781935,"lon":7.1626432}
+node: {"tags":{"bench":"no","highway":"bus_stop","name":"Hensges Neuhaus","shelter":"no","tactile_paving":"no"},"id":"411618251","lat":51.2156436,"lon":7.1403471}
+node: {"tags":{"highway":"bus_stop","name":"Hermannshöhe"},"id":"415254843","lat":51.2390134,"lon":7.1575812}
+node: {"tags":{"highway":"bus_stop","name":"Sandhof"},"id":"415255015","lat":51.2427619,"lon":7.1556071}
+node: {"tags":{"highway":"bus_stop","name":"Höchsten St. Josef Krankenhaus","wheelchair":"yes"},"id":"419648853","lat":51.2608163,"lon":7.1437429}
+node: {"tags":{"highway":"bus_stop","name":"Schreinersweg"},"id":"419874826","lat":51.2456465,"lon":7.1534015}
+node: {"tags":{"highway":"bus_stop","name":"Schreinersweg"},"id":"419874827","lat":51.2451377,"lon":7.154275}
+node: {"tags":{"highway":"bus_stop","name":"Irenenstraße"},"id":"419876002","lat":51.2477955,"lon":7.1530572}
+node: {"tags":{"highway":"bus_stop","name":"Irenenstraße"},"id":"419876003","lat":51.2482448,"lon":7.1526272}
+node: {"tags":{"highway":"bus_stop","name":"Sandhof"},"id":"420178488","lat":51.2434475,"lon":7.1551153}
+node: {"tags":{"highway":"bus_stop","name":"Sandhof"},"id":"420178490","lat":51.2430903,"lon":7.1559376}
+node: {"tags":{"highway":"bus_stop","name":"Morianstraße","public_transport":"stop_position","wheelchair":"yes"},"id":"439205764","lat":51.2580421,"lon":7.1484387}
+node: {"tags":{"highway":"bus_stop","name":"Wall/Museum","shelter":"yes","wheelchair":"yes"},"id":"439205765","lat":51.2575208,"lon":7.1462673}
+node: {"tags":{"highway":"bus_stop","is_in":"Wuppertal,NRW,Germany","name":"Neuenteich","wheelchair":"yes"},"id":"439205766","lat":51.2591794,"lon":7.153529}
+node: {"tags":{"highway":"bus_stop","name":"Leimbach"},"id":"439206647","lat":51.2801216,"lon":7.1926245}
+node: {"tags":{"highway":"bus_stop","name":"Reichsallee","source":"survey"},"id":"441536885","lat":51.2624446,"lon":7.1615806}
+node: {"tags":{"highway":"bus_stop","name":"Botanischer Garten"},"id":"442262603","lat":51.2613499,"lon":7.162992}
+node: {"tags":{"highway":"bus_stop","name":"Bismarckturm"},"id":"442935334","lat":51.262781,"lon":7.1657556}
+node: {"tags":{"highway":"bus_stop","name":"Farnweg"},"id":"443381699","lat":51.2823143,"lon":7.1076269}
+node: {"tags":{"highway":"bus_stop","name":"Birkenhöhe Schleife"},"id":"443382328","lat":51.276771,"lon":7.1144443}
+node: {"tags":{"highway":"bus_stop","name":"Am Luhnberg"},"id":"443382504","lat":51.2761785,"lon":7.1159587}
+node: {"tags":{"highway":"bus_stop","name":"Am Luhnberg"},"id":"443383210","lat":51.2757285,"lon":7.1161076}
+node: {"tags":{"highway":"bus_stop","name":"Birkenhöhe","note":"FIXME: exact location?","wheelchair":"yes"},"id":"443383423","lat":51.2795195,"lon":7.1126064}
+node: {"tags":{"highway":"bus_stop","name":"Katernberger Vereinshaus"},"id":"443383601","lat":51.2735944,"lon":7.1130983}
+node: {"tags":{"highway":"bus_stop","name":"Katernberger Vereinshaus"},"id":"443383604","lat":51.2735748,"lon":7.1124877}
+node: {"tags":{"highway":"bus_stop","name":"Höhenstraße"},"id":"444712119","lat":51.2974923,"lon":7.1611812}
+node: {"tags":{"highway":"bus_stop","name":"Uni-Halle"},"id":"444718053","lat":51.2408143,"lon":7.153102}
+node: {"tags":{"highway":"bus_stop","name":"Giselastraße"},"id":"448229396","lat":51.2950807,"lon":7.1648688}
+node: {"tags":{"highway":"bus_stop","name":"Fingscheid"},"id":"454458713","lat":51.2612223,"lon":7.1819277}
+node: {"tags":{"highway":"bus_stop","name":"Fingscheid"},"id":"454459447","lat":51.2616947,"lon":7.1811232}
+node: {"tags":{"highway":"bus_stop","name":"Dietrich-Bonhoeffer-Weg","shelter":"no"},"id":"459527870","lat":51.2637263,"lon":7.1687251}
+node: {"tags":{"highway":"bus_stop","name":"Friedenshain","public_transport":"stop_position"},"id":"459648207","lat":51.2351445,"lon":7.1539874}
+node: {"tags":{"highway":"bus_stop","name":"Friedenshain"},"id":"459648213","lat":51.235327,"lon":7.1542232}
+node: {"tags":{"highway":"bus_stop","name":"Kapellen"},"id":"459648222","lat":51.2428699,"lon":7.1790935}
+node: {"tags":{"highway":"bus_stop","name":"Sandhof"},"id":"459648245","lat":51.2431498,"lon":7.1549067}
+node: {"tags":{"highway":"bus_stop","name":"Hermannshöhe"},"id":"459648250","lat":51.2399222,"lon":7.1572418}
+node: {"tags":{"highway":"bus_stop","name":"Elisenstraße"},"id":"459675873","lat":51.2593964,"lon":7.1608247}
+node: {"tags":{"bench":"yes","highway":"bus_stop","name":"Am Dorrenberg","shelter":"yes"},"id":"471224967","lat":51.2639021,"lon":7.1343189}
+node: {"tags":{"highway":"bus_stop","name":"Marienstraße","wheelchair":"yes"},"id":"471224969","lat":51.2616982,"lon":7.1390737}
+node: {"tags":{"highway":"bus_stop","name":"Friedhofskirche"},"id":"471224970","lat":51.2628726,"lon":7.1358416}
+node: {"tags":{"highway":"bus_stop","name":"Am Neuen Hessen","shelter":"yes"},"id":"471224972","lat":51.2782076,"lon":7.1235485}
+node: {"tags":{"highway":"bus_stop","name":"Kuckelsberg","shelter":"yes"},"id":"471224973","lat":51.2737994,"lon":7.1229132}
+node: {"tags":{"highway":"bus_stop","name":"Hardenberger Hof"},"id":"471224974","lat":51.280844,"lon":7.1231781}
+node: {"tags":{"highway":"bus_stop","name":"Hardenberger Hof"},"id":"471224975","lat":51.2804963,"lon":7.1240364}
+node: {"tags":{"highway":"bus_stop","name":"Kuckelsberg"},"id":"471224976","lat":51.2731858,"lon":7.1238088}
+node: {"tags":{"highway":"bus_stop","name":"Am Neuen Hessen"},"id":"471224977","lat":51.27764,"lon":7.1231761}
+node: {"tags":{"highway":"bus_stop","name":"Marienstraße","wheelchair":"yes"},"id":"471224980","lat":51.2615929,"lon":7.1390204}
+node: {"tags":{"bench":"yes","highway":"bus_stop","name":"Friedhofskirche","shelter":"yes","wheelchair":"yes"},"id":"471224981","lat":51.2628586,"lon":7.1356656}
+node: {"tags":{"bench":"yes","highway":"bus_stop","name":"Am Dorrenberg","shelter":"yes"},"id":"471224983","lat":51.2651202,"lon":7.133227}
+node: {"tags":{"highway":"bus_stop","name":"Wall/Museum","shelter":"yes","wheelchair":"yes"},"id":"471224986","lat":51.2570757,"lon":7.1462494}
+node: {"tags":{"highway":"bus_stop","name":"Wall/Museum","shelter":"yes","wheelchair":"yes"},"id":"471224987","lat":51.2568859,"lon":7.1462827}
+node: {"tags":{"highway":"bus_stop","name":"Arminiusstraße","shelter":"yes"},"id":"472366647","lat":51.2465195,"lon":7.1367573}
+node: {"tags":{"highway":"bus_stop","name":"Weidenplatz","shelter":"yes","wheelchair":"yes"},"id":"472366859","lat":51.2493915,"lon":7.1404153}
+node: {"tags":{"highway":"bus_stop","name":"In der Ossenbeck","shelter":"yes"},"id":"473694252","lat":51.2418647,"lon":7.13014}
+node: {"tags":{"highway":"bus_stop","name":"Am Kiesberg"},"id":"473694253","lat":51.2434471,"lon":7.1289088}
+node: {"tags":{"highway":"bus_stop","name":"Im Johannistal","ref":"615, 645"},"id":"485640492","lat":51.239219,"lon":7.1534474}
+node: {"tags":{"highway":"bus_stop","name":"Im Johannistal","ref":"615, 645"},"id":"485640494","lat":51.2393852,"lon":7.1526771}
+node: {"tags":{"highway":"bus_stop","name":"Cronenfeld","public_transport":"stop_position"},"id":"489116419","lat":51.2154149,"lon":7.1471162}
+node: {"tags":{"bus":"yes","designation":"Wuppertal Hauptbahnhof","highway":"bus_stop","name":"Wuppertal Hauptbahnhof, Bussteig 5","public_transport":"stop_position","ref":"5"},"id":"489116725","lat":51.2561366,"lon":7.1497678}
+node: {"tags":{"highway":"bus_stop","name":"Am Arrenberg","shelter":"yes"},"id":"491524099","lat":51.2455089,"lon":7.1313127}
+node: {"tags":{"highway":"bus_stop","name":"Odenwaldweg"},"id":"494343457","lat":51.2293496,"lon":7.133855}
+node: {"tags":{"highway":"bus_stop","name":"Dickmann"},"id":"504417160","lat":51.2972775,"lon":7.1681022}
+node: {"tags":{"highway":"bus_stop","name":"Im Ostersiepen","wheelchair":"limited"},"id":"506811203","lat":51.2435986,"lon":7.1480014}
+node: {"tags":{"highway":"bus_stop","name":"Am Handweiser"},"id":"525794671","lat":51.2983156,"lon":7.1572081}
+node: {"tags":{"highway":"bus_stop","name":"Auf Lichtscheid","wheelchair":"yes"},"id":"527194401","lat":51.243632,"lon":7.1872654}
+node: {"tags":{"highway":"bus_stop","name":"Lichtscheid Wasserturm","public_transport":"stop_position"},"id":"527195723","lat":51.2425313,"lon":7.1912596}
+node: {"tags":{"highway":"bus_stop","name":"Steinwäsche"},"id":"527468219","lat":51.2137978,"lon":7.139791}
+node: {"tags":{"bus_stop:info:vocal":"yes","highway":"bus_stop","name":"Historische Stadthalle","ref":"2","shelter":"yes","wheelchair":"yes"},"id":"530163040","lat":51.2525749,"lon":7.1434682}
+node: {"tags":{"highway":"bus_stop","name":"Am Lindgen","shelter":"yes"},"id":"559924535","lat":51.2875027,"lon":7.1100603}
+node: {"tags":{"highway":"bus_stop","name":"Am Lindgen"},"id":"559924617","lat":51.2867442,"lon":7.1102399}
+node: {"tags":{"highway":"bus_stop","name":"Dönberger Straße"},"id":"559939043","lat":51.2919318,"lon":7.1685676}
+node: {"tags":{"highway":"bus_stop","name":"Gustav-Heinemann-Straße"},"id":"559939187","lat":51.2892175,"lon":7.171524}
+node: {"tags":{"highway":"bus_stop","name":"Luhnsfelder Höhe"},"id":"564931732","lat":51.2305402,"lon":7.1883401}
+node: {"tags":{"highway":"bus_stop","name":"Am Cleefchen"},"id":"566182751","lat":51.2838878,"lon":7.1765115}
+node: {"tags":{"bench":"yes","highway":"bus_stop","name":"Am Pannesbusch","shelter":"yes"},"id":"566182820","lat":51.285285,"lon":7.1805728}
+node: {"tags":{"bench":"yes","highway":"bus_stop","name":"Am Pannesbusch","shelter":"yes"},"id":"566182824","lat":51.2845779,"lon":7.1807753}
+node: {"tags":{"bench":"no","highway":"bus_stop","name":"Buchenring","public_transport":"platform","shelter":"no"},"id":"566183666","lat":51.2827681,"lon":7.1809735}
+node: {"tags":{"bench":"no","highway":"bus_stop","name":"Buchenring","public_transport":"platform","shelter":"no"},"id":"566183764","lat":51.2829023,"lon":7.1810754}
+node: {"tags":{"bench":"yes","highway":"bus_stop","name":"Hatzfelder Straße, Autobahn","public_transport":"platform","shelter":"yes"},"id":"566183932","lat":51.2807911,"lon":7.1825862}
+node: {"tags":{"bench":"no","highway":"bus_stop","name":"Hatzfelder Straße, Autobahn","public_transport":"platform","shelter":"no"},"id":"566184191","lat":51.2804214,"lon":7.1828056}
+node: {"tags":{"highway":"bus_stop","name":"Kleine Höhe","shelter":"yes"},"id":"566197794","lat":51.2912076,"lon":7.1020269}
+node: {"tags":{"highway":"bus_stop","name":"Kleine Höhe","shelter":"yes"},"id":"566197929","lat":51.2912871,"lon":7.102306}
+node: {"tags":{"highway":"bus_stop","name":"Grenze Jagdhaus"},"id":"566198593","lat":51.2816717,"lon":7.119255}
+node: {"tags":{"highway":"bus_stop","name":"Grenze Jagdhaus","shelter":"yes"},"id":"566198787","lat":51.280698,"lon":7.1204851}
+node: {"tags":{"bench":"yes","highway":"bus_stop","name":"Boltenberg"},"id":"566989810","lat":51.2359,"lon":7.109261}
+node: {"tags":{"highway":"bus_stop","name":"Am Todtenberg","ref":"e.05124000.amtodtenberg"},"id":"566990689","lat":51.2354027,"lon":7.1068538}
+node: {"tags":{"highway":"bus_stop","name":"Am Todtenberg","ref":"e.05124000.amtodtenberg"},"id":"566991577","lat":51.2353195,"lon":7.1068868}
+node: {"tags":{"highway":"bus_stop","name":"Zur Waldesruh"},"id":"566992920","lat":51.2353241,"lon":7.1054324}
+node: {"tags":{"highway":"bus_stop","name":"Zur Waldesruh"},"id":"566993052","lat":51.2352957,"lon":7.1055813}
+node: {"tags":{"highway":"bus_stop","name":"An der Waldau"},"id":"566993147","lat":51.2343171,"lon":7.1046683}
+node: {"tags":{"highway":"bus_stop","name":"An der Waldau"},"id":"566993195","lat":51.2345056,"lon":7.1047377}
+node: {"tags":{"highway":"bus_stop","name":"Pickartsberg"},"id":"566993972","lat":51.2339535,"lon":7.1018564}
+node: {"tags":{"highway":"bus_stop","name":"Pickartsberg"},"id":"566994309","lat":51.233793,"lon":7.1020113}
+node: {"tags":{"highway":"bus_stop","name":"Hindenburgstraße/Junkersweg"},"id":"566995126","lat":51.2455036,"lon":7.1179217}
+node: {"tags":{"highway":"bus_stop","name":"Am Elend"},"id":"566995405","lat":51.243982,"lon":7.1162596}
+node: {"tags":{"highway":"bus_stop","name":"Am Elend"},"id":"566995867","lat":51.2439861,"lon":7.1163963}
+node: {"tags":{"highway":"bus_stop","name":"Heimatplan"},"id":"566996219","lat":51.2440194,"lon":7.1154368}
+node: {"tags":{"highway":"bus_stop","name":"Roeberstraße","wheelchair":"yes"},"id":"566999969","lat":51.2443951,"lon":7.1139013}
+node: {"tags":{"highway":"bus_stop","name":"Roeberstraße","wheelchair":"yes"},"id":"566999975","lat":51.2444405,"lon":7.1137528}
+node: {"tags":{"highway":"bus_stop","name":"Hindenburgstraße","wheelchair":"yes"},"id":"567000307","lat":51.2450946,"lon":7.1123613}
+node: {"tags":{"highway":"bus_stop","name":"Hindenburgstraße","wheelchair":"yes"},"id":"567000314","lat":51.2447127,"lon":7.1124751}
+node: {"tags":{"highway":"bus_stop","name":"Eddastraße","wheelchair":"yes"},"id":"567000408","lat":51.2442185,"lon":7.1102552}
+node: {"tags":{"highway":"bus_stop","name":"Eddastraße","wheelchair":"yes"},"id":"567000462","lat":51.2442002,"lon":7.1100974}
+node: {"tags":{"highway":"bus_stop","name":"Zoologischer Garten Bahnhof","wheelchair":"yes"},"id":"567000689","lat":51.2430411,"lon":7.1077272}
+node: {"tags":{"highway":"bus_stop","name":"Zoologischer Garten Bahnhof","wheelchair":"yes"},"id":"567000699","lat":51.24306,"lon":7.1073439}
+node: {"tags":{"highway":"bus_stop","name":"Zoo/Haupteingang","wheelchair":"yes"},"id":"567000904","lat":51.2410755,"lon":7.1086814}
+node: {"tags":{"highway":"bus_stop","name":"Am Raukamp","source":"GPS"},"id":"567909010","lat":51.2836319,"lon":7.1730463}
+node: {"tags":{"highway":"bus_stop","name":"Westerbusch","note":"FIXME: exact location?"},"id":"567909012","lat":51.2820049,"lon":7.1721252}
+node: {"tags":{"highway":"bus_stop","name":"Westerbusch","source":"gps"},"id":"567909013","lat":51.2819904,"lon":7.1721346}
+node: {"tags":{"highway":"bus_stop","name":"Uellendahl","shelter":"yes"},"id":"567913035","lat":51.2802322,"lon":7.1679482}
+node: {"tags":{"highway":"bus_stop","name":"Uellendahl","shelter":"yes"},"id":"567913039","lat":51.2802765,"lon":7.1685456}
+node: {"tags":{"highway":"bus_stop","name":"Friedhof Uellendahl"},"id":"567913041","lat":51.2789782,"lon":7.1641378}
+node: {"tags":{"highway":"bus_stop","name":"Friedhof Uellendahl"},"id":"567913043","lat":51.2790544,"lon":7.1640307}
+node: {"tags":{"highway":"bus_stop","name":"Am Haken"},"id":"567916200","lat":51.2769431,"lon":7.1574877}
+node: {"tags":{"highway":"bus_stop","name":"Leipziger Straße","shelter":"yes"},"id":"567916202","lat":51.2760767,"lon":7.1539496}
+node: {"tags":{"highway":"bus_stop","name":"Kohlstraße"},"id":"567916204","lat":51.2738833,"lon":7.1501075}
+node: {"tags":{"highway":"bus_stop","name":"Leipziger Straße"},"id":"567916206","lat":51.2759711,"lon":7.1541429}
+node: {"tags":{"highway":"bus_stop","name":"Kohlstraße"},"id":"567916208","lat":51.2738463,"lon":7.1503006}
+node: {"tags":{"highway":"bus_stop","name":"Am Haken"},"id":"567916209","lat":51.2771391,"lon":7.1574649}
+node: {"tags":{"highway":"bus_stop","name":"Ludwigstraße","public_transport":"stop_position"},"id":"567919388","lat":51.2630805,"lon":7.1477625}
+node: {"tags":{"highway":"bus_stop","name":"Ludwigstraße","note":"FIXME: exact location?"},"id":"567919391","lat":51.2626397,"lon":7.1477966}
+node: {"tags":{"highway":"bus_stop","name":"Gemeindestift"},"id":"567931868","lat":51.2495129,"lon":7.1512716}
+node: {"tags":{"highway":"bus_stop","name":"Station Natur und Umwelt","public_transport":"stop_position"},"id":"567933358","lat":51.2315506,"lon":7.1506257}
+node: {"tags":{"highway":"bus_stop","name":"Station Natur und Umwelt","public_transport":"stop_position"},"id":"567933359","lat":51.2317034,"lon":7.1507297}
+node: {"tags":{"highway":"bus_stop","name":"Taunusweg"},"id":"567935345","lat":51.2260907,"lon":7.14951}
+node: {"tags":{"highway":"bus_stop","name":"Taunusweg"},"id":"567935347","lat":51.2264014,"lon":7.150182}
+node: {"tags":{"highway":"bus_stop","name":"Kaisergarten","public_transport":"stop_position"},"id":"567938710","lat":51.2174378,"lon":7.1502973}
+node: {"tags":{"highway":"bus_stop","name":"Cronenfeld","public_transport":"stop_position"},"id":"567938713","lat":51.2147392,"lon":7.1457616}
+node: {"tags":{"highway":"bus_stop","name":"Cronenfeld Sambatrasse","public_transport":"stop_position"},"id":"567938720","lat":51.2128335,"lon":7.1420279}
+node: {"tags":{"highway":"bus_stop","name":"Cronenfeld Sambatrasse","public_transport":"stop_position"},"id":"567938722","lat":51.2137823,"lon":7.1439217}
+node: {"tags":{"highway":"bus_stop","name":"Neuenhaus","public_transport":"stop_position"},"id":"567938730","lat":51.2206075,"lon":7.1521748}
+node: {"tags":{"highway":"bus_stop","name":"Neuenhaus","public_transport":"stop_position"},"id":"567938733","lat":51.2211773,"lon":7.15214}
+node: {"tags":{"highway":"bus_stop","name":"Kaisergarten","public_transport":"stop_position"},"id":"567938746","lat":51.2177689,"lon":7.1505548}
+node: {"tags":{"highway":"bus_stop","name":"Görresweg","public_transport":"stop_position"},"id":"567938752","lat":51.2234556,"lon":7.1520032}
+node: {"tags":{"highway":"bus_stop","name":"Neukuchhausen","public_transport":"stop_position","source":"Bing"},"id":"567940211","lat":51.2113014,"lon":7.1404596}
+node: {"tags":{"highway":"bus_stop","name":"Amboßstraße","public_transport":"stop_position"},"id":"567940213","lat":51.2072869,"lon":7.1337486}
+node: {"tags":{"highway":"bus_stop","name":"Amboßstraße","public_transport":"stop_position"},"id":"567940214","lat":51.2077255,"lon":7.1345558}
+node: {"tags":{"highway":"bus_stop","name":"Cronenberg Rathaus","note":"N=1 S=2","public_transport":"stop_position"},"id":"567940872","lat":51.2056054,"lon":7.1303308}
+node: {"tags":{"highway":"bus_stop","name":"Unterkirchen","note":"#65, #625 #NE7","public_transport":"stop_position"},"id":"567942908","lat":51.2025899,"lon":7.1313748}
+node: {"tags":{"highway":"bus_stop","name":"Unterkirchen","note:de":"#65, #625 #NE7","public_transport":"stop_position"},"id":"567942915","lat":51.2024876,"lon":7.1313809}
+node: {"tags":{"highway":"bus_stop","name":"Kornstraße"},"id":"574788578","lat":51.2379637,"lon":7.1028324}
+node: {"tags":{"highway":"bus_stop","name":"Zoo/Stadion","public_transport":"stop_position"},"id":"574788581","lat":51.2404873,"lon":7.1029696}
+node: {"tags":{"highway":"bus_stop","name":"Heimatplan"},"id":"574788702","lat":51.2444479,"lon":7.1154914}
+node: {"tags":{"highway":"bus_stop","name":"Am Eckbusch","wheelchair":"yes"},"id":"577582016","lat":51.2779437,"lon":7.1055369}
+node: {"tags":{"highway":"bus_stop","name":"Freibad Eckbusch","wheelchair":"yes"},"id":"577582017","lat":51.2781212,"lon":7.1081475}
+node: {"tags":{"highway":"bus_stop","name":"Freibad Eckbusch","wheelchair":"yes"},"id":"577582018","lat":51.2781494,"lon":7.1079071}
+node: {"tags":{"highway":"bus_stop","name":"Birkenhöhe"},"id":"577582019","lat":51.2800043,"lon":7.1125218}
+node: {"tags":{"highway":"bus_stop","name":"In der Ossenbeck"},"id":"588687190","lat":51.2420018,"lon":7.1297238}
+node: {"tags":{"highway":"bus_stop","name":"Am Kiesberg"},"id":"588687221","lat":51.2438557,"lon":7.1289011}
+node: {"tags":{"highway":"bus_stop","name":"Neviandtstraße/Altenpflegeheim","shelter":"yes"},"id":"588687224","lat":51.2440054,"lon":7.1342054}
+node: {"tags":{"highway":"bus_stop","name":"Neviandtstraße/Altenpflegeheim","shelter":"yes"},"id":"588687236","lat":51.2442786,"lon":7.1344106}
+node: {"tags":{"highway":"bus_stop","name":"Arminiusstraße","shelter":"yes"},"id":"588687245","lat":51.2469887,"lon":7.1370538}
+node: {"tags":{"highway":"bus_stop","name":"Kluse/Schauspielhaus","wheelchair":"yes"},"id":"600394123","lat":51.2560915,"lon":7.1558747}
+node: {"tags":{"highway":"bus_stop","name":"Rainer-Gruenter-Straße"},"id":"616996551","lat":51.2395813,"lon":7.1631659}
+node: {"tags":{"highway":"bus_stop","name":"Rainer-Gruenter-Straße","wheelchair":"yes"},"id":"616996555","lat":51.2390557,"lon":7.1620402}
+node: {"tags":{"highway":"bus_stop","name":"Campus Freudenberg","wheelchair":"yes"},"id":"616996558","lat":51.2384227,"lon":7.1609617}
+node: {"tags":{"highway":"bus_stop","name":"Am Stadtbahnhof"},"id":"623416850","lat":51.2241171,"lon":7.199894}
+node: {"tags":{"highway":"bus_stop","name":"Ronsdorf Markt"},"id":"623416851","lat":51.2273958,"lon":7.1966764}
+node: {"tags":{"highway":"bus_stop","name":"Ronsdorf Markt","wheelchair":"yes"},"id":"623416853","lat":51.2271899,"lon":7.1982938}
+node: {"tags":{"highway":"bus_stop","name":"Friedhof Staubental"},"id":"623416855","lat":51.2333096,"lon":7.1925294}
+node: {"tags":{"highway":"bus_stop","name":"Friedhof Staubental"},"id":"623416856","lat":51.2331307,"lon":7.1931417}
+node: {"tags":{"highway":"bus_stop","name":"Parkstraße","wheelchair":"yes"},"id":"623416857","lat":51.237343,"lon":7.1946377}
+node: {"tags":{"highway":"bus_stop","name":"Parkstraße","wheelchair":"yes"},"id":"623416859","lat":51.2365939,"lon":7.1949048}
+node: {"tags":{"highway":"bus_stop","name":"Kniprodestraße"},"id":"623416862","lat":51.2296611,"lon":7.1963211}
+node: {"tags":{"highway":"bus_stop","name":"Kniprodestraße"},"id":"623416863","lat":51.2296072,"lon":7.1962392}
+node: {"tags":{"highway":"bus_stop","name":"Birkenhöhe","wheelchair":"yes"},"id":"623416864","lat":51.2799329,"lon":7.1131598}
+node: {"tags":{"bus":"yes","designation":"Wuppertal Hauptbahnhof","highway":"bus_stop","name":"Wuppertal Hauptbahnhof, Bussteig 7","public_transport":"stop_position","ref":"7","wheelchair":"yes"},"id":"623416867","lat":51.2558352,"lon":7.1496956}
+node: {"tags":{"highway":"bus_stop","name":"Lichtscheid Wasserturm","wheelchair":"no"},"id":"623416873","lat":51.2423451,"lon":7.190476}
+node: {"tags":{"bus_stop:info:vocal":"yes","highway":"bus_stop","name":"Raukamp Schleife","public_transport":"platform"},"id":"623416874","lat":51.2857884,"lon":7.1738849}
+node: {"tags":{"highway":"bus_stop","name":"Wüstenhofer Straße"},"id":"629522675","lat":51.2649122,"lon":7.1411693}
+node: {"tags":{"highway":"bus_stop","name":"Grenze Jagdhaus"},"id":"636860908","lat":51.280723,"lon":7.1179036}
+node: {"tags":{"highway":"bus_stop","name":"Mastweg Mitte"},"id":"636869456","lat":51.2060419,"lon":7.1554076}
+node: {"tags":{"highway":"bus_stop","name":"Kaisergarten"},"id":"636869458","lat":51.2165765,"lon":7.1500478}
+node: {"tags":{"highway":"bus_stop","name":"Hinterdohr"},"id":"636869459","lat":51.2100082,"lon":7.1542188}
+node: {"tags":{"highway":"bus_stop","name":"Hinterdohr"},"id":"636869460","lat":51.2085602,"lon":7.1542366}
+node: {"tags":{"highway":"bus_stop","name":"Mastweg"},"id":"636869461","lat":51.2071101,"lon":7.1563838}
+node: {"tags":{"highway":"bus_stop","name":"Schulweg"},"id":"636869462","lat":51.2131868,"lon":7.1516301}
+node: {"tags":{"highway":"bus_stop","name":"Schulweg"},"id":"636869463","lat":51.213233,"lon":7.1517725}
+node: {"tags":{"highway":"bus_stop","name":"Blankstraße","wheelchair":"yes"},"id":"636869466","lat":51.2502635,"lon":7.1487253}
+node: {"tags":{"highway":"bus_stop","name":"Am Engelnberg","wheelchair":"yes"},"id":"642886891","lat":51.2645528,"lon":7.1570942}
+node: {"tags":{"highway":"bus_stop","name":"Lutherstift","wheelchair":"yes"},"id":"674514352","lat":51.257896,"lon":7.1363615}
+node: {"tags":{"highway":"bus_stop","name":"Otto-Böhne-Platz","wheelchair":"limited"},"id":"674514353","lat":51.2591664,"lon":7.1366577}
+node: {"tags":{"highway":"bus_stop","name":"Schule Hombüchel"},"id":"674514354","lat":51.2582832,"lon":7.1379949}
+node: {"tags":{"highway":"bus_stop","name":"Reiterstraße"},"id":"674514355","lat":51.2593099,"lon":7.1405967}
+node: {"tags":{"highway":"bus_stop","name":"Schreinerstraße","wheelchair":"limited"},"id":"674514356","lat":51.2605472,"lon":7.1387013}
+node: {"tags":{"highway":"bus_stop","name":"Neuenteich","wheelchair":"yes"},"id":"674514357","lat":51.2581252,"lon":7.1544814}
+node: {"tags":{"highway":"bus_stop","name":"Schlieperstraße"},"id":"674514358","lat":51.2591856,"lon":7.1574917}
+node: {"tags":{"highway":"bus_stop","name":"Schlieperstraße"},"id":"674514359","lat":51.2592451,"lon":7.1575577}
+node: {"tags":{"highway":"bus_stop","name":"Wortmannstraße"},"id":"674514360","lat":51.2601352,"lon":7.1555678}
+node: {"tags":{"highway":"bus_stop","name":"Diemeltreppe"},"id":"674514361","lat":51.2598448,"lon":7.16206}
+node: {"tags":{"highway":"bus_stop","name":"Botanischer Garten"},"id":"674514362","lat":51.2617275,"lon":7.1627991}
+node: {"tags":{"highway":"bus_stop","name":"Reichsallee"},"id":"674514363","lat":51.2625306,"lon":7.1616084}
+node: {"tags":{"highway":"bus_stop","name":"Bismarckturm"},"id":"674514364","lat":51.2628953,"lon":7.1666433}
+node: {"tags":{"highway":"bus_stop","name":"Dietrich-Bonhoeffer-Weg"},"id":"674514365","lat":51.2637408,"lon":7.1686035}
+node: {"tags":{"highway":"bus_stop","name":"Wahlert"},"id":"674527405","lat":51.2004665,"lon":7.1137654}
+node: {"tags":{"highway":"bus_stop","name":"Wahlert"},"id":"674527407","lat":51.2018939,"lon":7.1169576}
+node: {"tags":{"highway":"bus_stop","name":"Untergründen"},"id":"674527412","lat":51.2042758,"lon":7.1230331}
+node: {"tags":{"highway":"bus_stop","name":"Untergründen"},"id":"674527418","lat":51.2046129,"lon":7.1235579}
+node: {"tags":{"highway":"bus_stop","name":"Jung-Stilling-Weg"},"id":"674527424","lat":51.2310581,"lon":7.1476294}
+node: {"tags":{"highway":"bus_stop","name":"Jung-Stilling-Weg"},"id":"674527430","lat":51.2311377,"lon":7.1477641}
+node: {"tags":{"highway":"bus_stop","name":"Worringer Straße"},"id":"674527434","lat":51.233314,"lon":7.147087}
+node: {"tags":{"bench":"yes","highway":"bus_stop","name":"Worringer Straße","shelter":"yes"},"id":"674527435","lat":51.2333294,"lon":7.1473644}
+node: {"tags":{"highway":"bus_stop","name":"Hatzenbeck"},"id":"674527436","lat":51.2401876,"lon":7.1449125}
+node: {"tags":{"highway":"bus_stop","name":"Hatzenbeck"},"id":"674527437","lat":51.2400198,"lon":7.1454036}
+node: {"tags":{"bench":"no","highway":"bus_stop","name":"Graf-Adolf-Straße","shelter":"no"},"id":"674527438","lat":51.2362228,"lon":7.1466996}
+node: {"tags":{"highway":"bus_stop","name":"Graf-Adolf-Straße","shelter":"yes"},"id":"674527439","lat":51.2362759,"lon":7.1470432}
+node: {"tags":{"highway":"bus_stop","name":"Klever Platz","wheelchair":"yes"},"id":"674527440","lat":51.2441151,"lon":7.1434675}
+node: {"tags":{"highway":"bus_stop","name":"Klever Platz","wheelchair":"yes"},"id":"674527441","lat":51.2446329,"lon":7.1440376}
+node: {"tags":{"highway":"bus_stop","name":"Neckarstraße","wheelchair":"yes"},"id":"674527442","lat":51.2469224,"lon":7.1431937}
+node: {"tags":{"highway":"bus_stop","name":"Neckarstraße","shelter":"yes","wheelchair":"yes"},"id":"674527443","lat":51.2470964,"lon":7.1434016}
+node: {"tags":{"highway":"bus_stop","name":"Weststraße","wheelchair":"yes"},"id":"674527444","lat":51.2490449,"lon":7.143329}
+node: {"tags":{"highway":"bus_stop","name":"Weststraße","wheelchair":"yes"},"id":"674527445","lat":51.2500835,"lon":7.1425748}
+node: {"tags":{"highway":"bus_stop","name":"Uellendahler Brunnen"},"id":"674531784","lat":51.2881024,"lon":7.1736715}
+node: {"tags":{"highway":"bus_stop","name":"Uellendahler Brunnen"},"id":"674531785","lat":51.2882791,"lon":7.1734567}
+node: {"tags":{"bench":"yes","highway":"bus_stop","name":"Abzweig Hatzfelder Straße","shelter":"yes"},"id":"674531788","lat":51.2900093,"lon":7.1817381}
+node: {"tags":{"bench":"yes","highway":"bus_stop","name":"Abzweig Hatzfelder Straße","shelter":"yes"},"id":"674531789","lat":51.2901719,"lon":7.1818338}
+node: {"tags":{"bench":"yes","highway":"bus_stop","name":"Grunerstraße","shelter":"yes"},"id":"674531791","lat":51.2915154,"lon":7.186024}
+node: {"tags":{"bench":"yes","highway":"bus_stop","name":"Grunerstraße","shelter":"yes"},"id":"674531792","lat":51.2915084,"lon":7.1855854}
+node: {"tags":{"highway":"bus_stop","name":"Flanhard"},"id":"674531794","lat":51.2930667,"lon":7.1899}
+node: {"tags":{"highway":"bus_stop","name":"Flanhard"},"id":"674531795","lat":51.2931453,"lon":7.1897976}
+node: {"tags":{"highway":"bus_stop","name":"Hatzfeld katholische Kirche"},"id":"674531796","lat":51.2938609,"lon":7.195652}
+node: {"tags":{"highway":"bus_stop","name":"Hatzfeld katholische Kirche"},"id":"674531798","lat":51.2939255,"lon":7.1965666}
+node: {"tags":{"FIXME":"position estimated","highway":"bus_stop","name":"Cronenfeld","wheelchair":"yes"},"id":"677518595","lat":51.2146117,"lon":7.146502}
+node: {"tags":{"highway":"bus_stop","name":"Harzstraße"},"id":"677518597","lat":51.2289388,"lon":7.1358669}
+node: {"tags":{"highway":"bus_stop","name":"Harzstraße"},"id":"677518598","lat":51.2288132,"lon":7.1357741}
+node: {"tags":{"highway":"bus_stop","name":"Korzert"},"id":"677518599","lat":51.2290234,"lon":7.1408433}
+node: {"tags":{"highway":"bus_stop","name":"Korzert"},"id":"677518600","lat":51.2285495,"lon":7.1395657}
+node: {"tags":{"highway":"bus_stop","name":"Odenwaldweg"},"id":"677518601","lat":51.2301448,"lon":7.134212}
+node: {"tags":{"bench":"no","highway":"bus_stop","name":"Rhönstraße","shelter":"yes"},"id":"677518602","lat":51.2325409,"lon":7.1362954}
+node: {"tags":{"bench":"yes","highway":"bus_stop","name":"Rhönstraße","shelter":"yes"},"id":"677518603","lat":51.2326036,"lon":7.1360976}
+node: {"tags":{"highway":"bus_stop","name":"Schwarzwaldhaus"},"id":"677518604","lat":51.2341684,"lon":7.1381694}
+node: {"tags":{"highway":"bus_stop","name":"Schwarzwaldhaus"},"id":"677518605","lat":51.2344692,"lon":7.138466}
+node: {"tags":{"highway":"bus_stop","name":"Friedrichsallee"},"id":"677518606","lat":51.2360743,"lon":7.1400688}
+node: {"tags":{"highway":"bus_stop","name":"Friedrichsallee"},"id":"677518607","lat":51.2359453,"lon":7.1401676}
+node: {"tags":{"highway":"bus_stop","name":"Worringer Straße"},"id":"677518630","lat":51.2333464,"lon":7.1476326}
+node: {"tags":{"highway":"bus_stop","name":"Am Cleefkothen"},"id":"677518631","lat":51.2354862,"lon":7.1415}
+node: {"tags":{"highway":"bus_stop","name":"Am Cleefkothen","wheelchair":"yes"},"id":"677518632","lat":51.2353562,"lon":7.1415968}
+node: {"tags":{"highway":"bus_stop","name":"Friedrichsberg","wheelchair":"yes"},"id":"677518634","lat":51.2378941,"lon":7.1428485}
+node: {"tags":{"highway":"bus_stop","name":"Friedrichsberg","wheelchair":"yes"},"id":"677518635","lat":51.2377282,"lon":7.1424375}
+node: {"tags":{"highway":"bus_stop","name":"Karl-Theodor-Straße"},"id":"677518636","lat":51.2365887,"lon":7.1495567}
+node: {"tags":{"highway":"bus_stop","name":"Karl-Theodor-Straße"},"id":"677518637","lat":51.2364798,"lon":7.1496688}
+node: {"tags":{"highway":"bus_stop","name":"Friedenshain","public_transport":"stop_position"},"id":"677518638","lat":51.2346627,"lon":7.153368}
+node: {"tags":{"highway":"bus_stop","name":"Friedenshain","public_transport":"stop_position"},"id":"677518639","lat":51.2349044,"lon":7.1538669}
+node: {"tags":{"highway":"bus_stop","name":"Friedenshain"},"id":"677518640","lat":51.2354913,"lon":7.1542233}
+node: {"tags":{"bench":"no","highway":"bus_stop","name":"Im Johannistal","shelter":"no"},"id":"677518641","lat":51.2397576,"lon":7.1557272}
+node: {"tags":{"highway":"bus_stop","name":"Ravensberger Straße","operator":"Wuppertaler Stadtwerke (WSW)","shelter":"no","website":"http://www.wsw-online.de","wheelchair":"yes"},"id":"677518642","lat":51.2426395,"lon":7.142878}
+node: {"tags":{"highway":"bus_stop","name":"Ravensberger Straße","wheelchair":"yes"},"id":"677518643","lat":51.2427585,"lon":7.1427484}
+node: {"tags":{"highway":"bus_stop","name":"Mensa","wheelchair":"limited"},"id":"677518645","lat":51.2459542,"lon":7.1460503}
+node: {"tags":{"highway":"bus_stop","name":"Unterer Grifflenberg"},"id":"677518646","lat":51.2486074,"lon":7.1485793}
+node: {"tags":{"highway":"bus_stop","name":"Gaußstraße"},"id":"677518648","lat":51.2455359,"lon":7.1522873}
+node: {"tags":{"highway":"bus_stop","name":"Ronsdorfer Talsperre"},"id":"678001034","lat":51.2201482,"lon":7.1917635}
+node: {"tags":{"highway":"bus_stop","name":"Echoer Straße"},"id":"678001041","lat":51.2182975,"lon":7.1946296}
+node: {"tags":{"highway":"bus_stop","name":"Am Stall"},"id":"678001061","lat":51.2218105,"lon":7.1937906}
+node: {"tags":{"highway":"bus_stop","name":"Schule Echoer Straße"},"id":"678001071","lat":51.2194259,"lon":7.1981601}
+node: {"tags":{"highway":"bus_stop","name":"Im Bökel"},"id":"678001083","lat":51.2211981,"lon":7.1993056}
+node: {"tags":{"highway":"bus_stop","name":"Am Stadtbahnhof"},"id":"678001090","lat":51.2238208,"lon":7.1981476}
+node: {"tags":{"highway":"bus_stop","name":"Kluse/Schauspielhaus"},"id":"678001141","lat":51.2560482,"lon":7.1571954}
+node: {"tags":{"highway":"bus_stop","name":"Kluse/Schauspielhaus"},"id":"678001147","lat":51.2562933,"lon":7.1578587}
+node: {"tags":{"highway":"bus_stop","name":"Landgericht"},"id":"678001156","lat":51.2566918,"lon":7.1629797}
+node: {"tags":{"highway":"bus_stop","name":"Landgericht"},"id":"678001158","lat":51.256926,"lon":7.1627034}
+node: {"tags":{"highway":"bus_stop","name":"Am Engelnberg","wheelchair":"yes"},"id":"678001163","lat":51.2636513,"lon":7.1560365}
+node: {"tags":{"highway":"bus_stop","name":"Ewaldstraße"},"id":"678001168","lat":51.2661682,"lon":7.1598927}
+node: {"tags":{"highway":"bus_stop","name":"Ewaldstraße"},"id":"678001175","lat":51.2663404,"lon":7.1598073}
+node: {"tags":{"highway":"bus_stop","name":"Landgericht"},"id":"678001184","lat":51.2573425,"lon":7.1647071}
+node: {"tags":{"highway":"bus_stop","name":"Völklinger Straße"},"id":"678001208","lat":51.2611064,"lon":7.1716914}
+node: {"tags":{"highway":"bus_stop","name":"Völklinger Straße","wheelchair":"limited"},"id":"678001213","lat":51.2614331,"lon":7.1721974}
+node: {"tags":{"highway":"bus_stop","name":"Clausen"},"id":"678001227","lat":51.2686619,"lon":7.1684926}
+node: {"tags":{"highway":"bus_stop","name":"Clausen"},"id":"678001234","lat":51.2685543,"lon":7.1682211}
+node: {"tags":{"highway":"bus_stop","name":"Polizeipräsidium"},"id":"678001241","lat":51.2626569,"lon":7.1765326}
+node: {"tags":{"highway":"bus_stop","name":"Polizeipräsidium"},"id":"678001249","lat":51.2627607,"lon":7.1764214}
+node: {"tags":{"highway":"bus_stop","name":"Loher Straße"},"id":"678001260","lat":51.2650751,"lon":7.184185}
+node: {"tags":{"highway":"bus_stop","name":"Loher Straße"},"id":"678001269","lat":51.2651811,"lon":7.1835504}
+node: {"tags":{"highway":"bus_stop","name":"Holthauser Straße"},"id":"678054807","lat":51.2276823,"lon":7.1899992}
+node: {"tags":{"highway":"bus_stop","name":"Holthauser Straße"},"id":"678054810","lat":51.2275899,"lon":7.1901699}
+node: {"tags":{"highway":"bus_stop","name":"Kneipsgasse"},"id":"678054824","lat":51.2281256,"lon":7.1919997}
+node: {"tags":{"highway":"bus_stop","name":"Kneipsgasse"},"id":"678054831","lat":51.2280714,"lon":7.1929676}
+node: {"tags":{"highway":"bus_stop","name":"Luhnsfelder Höhe"},"id":"678054841","lat":51.2302598,"lon":7.187884}
+node: {"tags":{"highway":"bus_stop","name":"Staubenthaler Höhe"},"id":"678054848","lat":51.2343632,"lon":7.1916966}
+node: {"tags":{"highway":"bus_stop","name":"Staubenthaler Höhe"},"id":"678054858","lat":51.2342361,"lon":7.1915748}
+node: {"tags":{"highway":"bus_stop","name":"Espenstraße"},"id":"678054864","lat":51.2504817,"lon":7.1538324}
+node: {"tags":{"highway":"bus_stop","name":"Kluser Höhe"},"id":"678054871","lat":51.2524363,"lon":7.1591286}
+node: {"tags":{"highway":"bus_stop","name":"Kluser Höhe"},"id":"678054878","lat":51.2525854,"lon":7.1590901}
+node: {"tags":{"highway":"bus_stop","name":"Barmenia-Allee (Kronprinzenallee)"},"id":"678054888","lat":51.2515454,"lon":7.1602236}
+node: {"tags":{"highway":"bus_stop","name":"Barmenia-Allee (Kronprinzenallee)"},"id":"678054906","lat":51.2518333,"lon":7.1605269}
+node: {"tags":{"highway":"bus_stop","name":"Böhler Hof"},"id":"678054914","lat":51.2451559,"lon":7.1639414}
+node: {"tags":{"highway":"bus_stop","name":"Böhler Hof"},"id":"678054927","lat":51.2451847,"lon":7.1644783}
+node: {"tags":{"highway":"bus_stop","name":"Am Walde"},"id":"678054928","lat":51.243156,"lon":7.1696553}
+node: {"tags":{"highway":"bus_stop","name":"Am Walde"},"id":"678054938","lat":51.2433559,"lon":7.1701291}
+node: {"tags":{"highway":"bus_stop","name":"Kapellen","public_transport":"stop_position"},"id":"678054946","lat":51.2427838,"lon":7.1780153}
+node: {"tags":{"highway":"bus_stop","name":"Kapellen","public_transport":"stop_position"},"id":"678054950","lat":51.2426782,"lon":7.1782625}
+node: {"tags":{"highway":"bus_stop","name":"Kapellen","public_transport":"stop_position"},"id":"678054961","lat":51.2427774,"lon":7.1816502}
+node: {"tags":{"highway":"bus_stop","name":"Obere Rutenbeck"},"id":"679718565","lat":51.2278306,"lon":7.129774}
+node: {"tags":{"highway":"bus_stop","name":"Am Burgholz"},"id":"679718566","lat":51.2262883,"lon":7.1305185}
+node: {"tags":{"highway":"bus_stop","name":"Sollingweg"},"id":"679718567","lat":51.2289453,"lon":7.1322959}
+node: {"tags":{"highway":"bus_stop","name":"Sollingweg"},"id":"679718568","lat":51.228425,"lon":7.1334337}
+node: {"tags":{"highway":"bus_stop","name":"VillaMedia"},"id":"679718569","lat":51.2456202,"lon":7.1328443}
+node: {"tags":{"highway":"bus_stop","name":"Weidenplatz","shelter":"yes","wheelchair":"yes"},"id":"679718570","lat":51.2494728,"lon":7.1402716}
+node: {"tags":{"highway":"bus_stop","name":"Birkenhöhe Schleife"},"id":"681080958","lat":51.2771683,"lon":7.1140246}
+node: {"tags":{"highway":"bus_stop","name":"Birkenhöhe Schleife"},"id":"681080964","lat":51.2769785,"lon":7.1146528}
+node: {"tags":{"highway":"bus_stop","name":"Birkenhöhe","wheelchair":"yes"},"id":"681080974","lat":51.2797257,"lon":7.1127077}
+node: {"tags":{"highway":"bus_stop","name":"Hainstraße Mitte"},"id":"681080978","lat":51.2718671,"lon":7.1300717}
+node: {"tags":{"highway":"bus_stop","name":"Bethesda-Krankenhaus"},"id":"681081008","lat":51.2679558,"lon":7.1311226}
+node: {"tags":{"highway":"bus_stop","name":"Bethesda-Krankenhaus"},"id":"681081015","lat":51.2686222,"lon":7.1309262}
+node: {"tags":{"highway":"bus_stop","name":"Bremer Straße"},"id":"681081021","lat":51.2700348,"lon":7.1302576}
+node: {"tags":{"highway":"bus_stop","name":"Bremer Straße"},"id":"681081034","lat":51.2704641,"lon":7.1303783}
+node: {"tags":{"highway":"bus_stop","name":"Hainstraße Mitte"},"id":"681081040","lat":51.2716838,"lon":7.1302757}
+node: {"tags":{"highway":"bus_stop","name":"In den Birken"},"id":"681081050","lat":51.2772949,"lon":7.1195302}
+node: {"tags":{"highway":"bus_stop","name":"In den Birken"},"id":"681081055","lat":51.2775761,"lon":7.1198673}
+node: {"tags":{"highway":"bus_stop","name":"Am Wasserturm"},"id":"681081062","lat":51.2781372,"lon":7.1281471}
+node: {"tags":{"highway":"bus_stop","name":"Am Bredtchen"},"id":"681081068","lat":51.2768512,"lon":7.1293113}
+node: {"tags":{"highway":"bus_stop","name":"Am Bredtchen"},"id":"681081075","lat":51.276207,"lon":7.1294975}
+node: {"tags":{"highway":"bus_stop","name":"Hardenberger Hof"},"id":"681081078","lat":51.2811954,"lon":7.1249877}
+node: {"tags":{"highway":"bus_stop","name":"Am Wasserturm"},"id":"681081091","lat":51.2789216,"lon":7.1280911}
+node: {"tags":{"highway":"bus_stop","name":"Friedhof Bredtchen"},"id":"681081097","lat":51.2737755,"lon":7.1308513}
+node: {"tags":{"highway":"bus_stop","name":"Friedhof Bredtchen"},"id":"681081104","lat":51.273738,"lon":7.1310521}
+node: {"tags":{"highway":"bus_stop","name":"Am Anschlag"},"id":"681081112","lat":51.274968,"lon":7.1303666}
+node: {"tags":{"highway":"bus_stop","name":"Wanderparkplatz Arboretum","public_transport":"stop_position"},"id":"683507128","lat":51.2144903,"lon":7.1059609}
+node: {"tags":{"highway":"bus_stop","name":"Espenstraße"},"id":"694825075","lat":51.2509453,"lon":7.1539901}
+node: {"tags":{"highway":"bus_stop","name":"Distelbeck","wheelchair":"yes"},"id":"694825077","lat":51.2523651,"lon":7.1528229}
+node: {"tags":{"highway":"bus_stop","name":"Haubahn","wheelchair":"yes"},"id":"694825078","lat":51.2526675,"lon":7.1545906}
+node: {"tags":{"highway":"bus_stop","name":"Haubahn","wheelchair":"yes"},"id":"694825079","lat":51.2537937,"lon":7.1555396}
+node: {"tags":{"disused":"yes","highway":"bus_stop","name":"Kluse Dessauerbrücke"},"id":"694825080","lat":51.2551331,"lon":7.1538757}
+node: {"tags":{"highway":"bus_stop","name":"Bendahler Straße"},"id":"694825081","lat":51.2535934,"lon":7.1637015}
+node: {"tags":{"highway":"bus_stop","name":"Wolkenburg","wheelchair":"yes"},"id":"694825082","lat":51.2552179,"lon":7.1637643}
+node: {"tags":{"highway":"bus_stop","name":"Bendahler Straße"},"id":"694825083","lat":51.254185,"lon":7.164625}
+node: {"tags":{"highway":"bus_stop","name":"Wolkenburg","wheelchair":"yes"},"id":"694825084","lat":51.2552314,"lon":7.1635546}
+node: {"tags":{"highway":"bus_stop","name":"Hesselnberg"},"id":"694825085","lat":51.2556458,"lon":7.1688404}
+node: {"tags":{"highway":"bus_stop","name":"Hesselnberg"},"id":"694825086","lat":51.2554238,"lon":7.16871}
+node: {"tags":{"highway":"bus_stop","name":"Christbusch"},"id":"694825087","lat":51.2572277,"lon":7.1713874}
+node: {"tags":{"highway":"bus_stop","name":"Christbusch"},"id":"694825088","lat":51.2572235,"lon":7.1715013}
+node: {"tags":{"highway":"bus_stop","name":"Friedhof Unterbarmen"},"id":"694825089","lat":51.2587342,"lon":7.1749365}
+node: {"tags":{"highway":"bus_stop","name":"Friedhof Unterbarmen"},"id":"694825090","lat":51.2587606,"lon":7.1753761}
+node: {"tags":{"highway":"bus_stop","name":"Meckelstraße"},"id":"694825100","lat":51.2627487,"lon":7.1872549}
+node: {"tags":{"highway":"bus_stop","name":"Meckelstraße"},"id":"694825101","lat":51.262563,"lon":7.18669}
+node: {"tags":{"highway":"bus_stop","name":"Adlerbrücke","wheelchair":"yes"},"id":"694825102","lat":51.2663373,"lon":7.188921}
+node: {"tags":{"highway":"bus_stop","name":"Im Springen"},"id":"694825103","lat":51.2630882,"lon":7.1906551}
+node: {"tags":{"highway":"bus_stop","name":"Im Springen"},"id":"694825104","lat":51.2632146,"lon":7.1911009}
+node: {"tags":{"highway":"bus_stop","name":"Zeughausstraße"},"id":"694825105","lat":51.2645668,"lon":7.1946732}
+node: {"tags":{"highway":"bus_stop","name":"Zeughausstraße"},"id":"694825106","lat":51.2648216,"lon":7.194806}
+node: {"tags":{"highway":"bus_stop","name":"Schule Kruppstraße"},"id":"694831479","lat":51.2704143,"lon":7.1237994}
+node: {"tags":{"highway":"bus_stop","name":"Kuckelsberg"},"id":"694831480","lat":51.2737803,"lon":7.1227036}
+node: {"tags":{"highway":"bus_stop","name":"Thomaskirche","wheelchair":"yes"},"id":"698059973","lat":51.2681666,"lon":7.1537113}
+node: {"tags":{"highway":"bus_stop","name":"Deckershäuschen Kirche"},"id":"698059978","lat":51.285265,"lon":7.1680892}
+node: {"tags":{"highway":"bus_stop","name":"Florastraße"},"id":"698059991","lat":51.2722857,"lon":7.144539}
+node: {"tags":{"highway":"bus_stop","name":"Friedhof Uellendahl"},"id":"698060006","lat":51.279183,"lon":7.1628137}
+node: {"tags":{"highway":"bus_stop","name":"Am Hammerkloth"},"id":"698060020","lat":51.2856166,"lon":7.1629854}
+node: {"tags":{"highway":"bus_stop","name":"Mirker Hain"},"id":"698060031","lat":51.2780169,"lon":7.140197}
+node: {"tags":{"highway":"bus_stop","name":"Röttgen"},"id":"698060035","lat":51.2844369,"lon":7.1558131}
+node: {"tags":{"highway":"bus_stop","name":"Obere Kohlstraße"},"id":"698060048","lat":51.2831915,"lon":7.1505837}
+node: {"tags":{"highway":"bus_stop","name":"Konrad-Adenauer-Straße"},"id":"698060058","lat":51.2844756,"lon":7.1720639}
+node: {"tags":{"highway":"bus_stop","name":"Am Vogelsang"},"id":"698060062","lat":51.2762548,"lon":7.140609}
+node: {"tags":{"highway":"bus_stop","name":"Untenrohleder"},"id":"698060073","lat":51.2842807,"lon":7.1489448}
+node: {"tags":{"highway":"bus_stop","name":"Am Opphof"},"id":"698060084","lat":51.2727278,"lon":7.1549939}
+node: {"tags":{"highway":"bus_stop","name":"Domagkweg"},"id":"698060099","lat":51.281538,"lon":7.1484061}
+node: {"tags":{"highway":"bus_stop","name":"Friedhof Uellendahl"},"id":"698060110","lat":51.280017,"lon":7.1622421}
+node: {"tags":{"highway":"bus_stop","name":"Mirker Hain"},"id":"698060113","lat":51.277886,"lon":7.1402319}
+node: {"tags":{"highway":"bus_stop","name":"Obere Kohlstraße","wheelchair":"no"},"id":"698060123","lat":51.2830838,"lon":7.1518779}
+node: {"tags":{"highway":"bus_stop","name":"Weißenburgstraße","wheelchair":"yes"},"id":"698060140","lat":51.2666959,"lon":7.1534554}
+node: {"tags":{"highway":"bus_stop","name":"Kliniken St.Antonius Vogelsangstraße"},"id":"698060146","lat":51.2740622,"lon":7.1417418}
+node: {"tags":{"highway":"bus_stop","name":"Westfalenweg Mitte"},"id":"698060157","lat":51.2834503,"lon":7.146498}
+node: {"tags":{"highway":"bus_stop","name":"Domagkweg"},"id":"698060167","lat":51.2811348,"lon":7.1474521}
+node: {"tags":{"highway":"bus_stop","name":"Norkshäuschen"},"id":"698060169","lat":51.2824253,"lon":7.1595976}
+node: {"tags":{"highway":"bus_stop","name":"Weißenburgstraße"},"id":"698060180","lat":51.2668037,"lon":7.1533963}
+node: {"tags":{"highway":"bus_stop","name":"Kliniken St.Antonius Vogelsangstraße"},"id":"698060192","lat":51.2738741,"lon":7.1421203}
+node: {"tags":{"highway":"bus_stop","name":"Westfalenweg Mitte"},"id":"698060195","lat":51.2832527,"lon":7.144927}
+node: {"tags":{"highway":"bus_stop","name":"Untersteinenfeld"},"id":"698060202","lat":51.2664771,"lon":7.1571254}
+node: {"tags":{"highway":"bus_stop","name":"Am Wasserlauf"},"id":"698060210","lat":51.2768919,"lon":7.162397}
+node: {"tags":{"highway":"bus_stop","name":"Obere Vogelsangstraße"},"id":"698060219","lat":51.2809801,"lon":7.143305}
+node: {"tags":{"highway":"bus_stop","name":"Norkshäuschen"},"id":"698060223","lat":51.2829038,"lon":7.1594839}
+node: {"tags":{"highway":"bus_stop","name":"Am Hammerkloth"},"id":"698060231","lat":51.2856784,"lon":7.1620777}
+node: {"tags":{"highway":"bus_stop","name":"Am Opphof"},"id":"698060249","lat":51.2728681,"lon":7.1553909}
+node: {"tags":{"highway":"bus_stop","name":"Thomaskirche","wheelchair":"yes"},"id":"698060254","lat":51.267817,"lon":7.1534091}
+node: {"tags":{"highway":"bus_stop","name":"Konrad-Adenauer-Straße"},"id":"698060263","lat":51.2842609,"lon":7.1720389}
+node: {"tags":{"highway":"bus_stop","name":"Florastraße"},"id":"698060272","lat":51.2725893,"lon":7.1441298}
+node: {"tags":{"highway":"bus_stop","name":"Westfalenweg Mitte"},"id":"698060277","lat":51.2829873,"lon":7.1469074}
+node: {"tags":{"highway":"bus_stop","name":"Deckershäuschen Kirche"},"id":"698060284","lat":51.2854281,"lon":7.1672853}
+node: {"tags":{"highway":"bus_stop","name":"Obere Vogelsangstraße"},"id":"698060295","lat":51.2808516,"lon":7.1429472}
+node: {"tags":{"highway":"bus_stop","name":"Röttgen"},"id":"698060304","lat":51.2847021,"lon":7.1567911}
+node: {"tags":{"highway":"bus_stop","name":"Elsasser Straße","wheelchair":"yes"},"id":"698060305","lat":51.2655399,"lon":7.1545665}
+node: {"tags":{"highway":"bus_stop","name":"Am Vogelsang"},"id":"698060315","lat":51.2763056,"lon":7.1404181}
+node: {"tags":{"highway":"bus_stop","name":"Sonnenblume","wheelchair":"no"},"id":"698060325","lat":51.2849084,"lon":7.1518024}
+node: {"tags":{"bench":"no","highway":"bus_stop","name":"Talstraße","shelter":"no"},"id":"698361979","lat":51.2482692,"lon":7.1036313}
+node: {"tags":{"highway":"bus_stop","name":"Varresbecker Straße","public_transport":"stop_position"},"id":"698361984","lat":51.2467213,"lon":7.1067954}
+node: {"tags":{"highway":"bus_stop","name":"Löwer","public_transport":"stop_position"},"id":"698362008","lat":51.2494949,"lon":7.1130562}
+node: {"tags":{"bench":"no","highway":"bus_stop","name":"Kyffhäuserstraße","shelter":"no"},"id":"698362011","lat":51.2510737,"lon":7.1119156}
+node: {"tags":{"bench":"no","highway":"bus_stop","name":"Stockmannsmühle","shelter":"no"},"id":"698362020","lat":51.2514645,"lon":7.1102675}
+node: {"tags":{"highway":"bus_stop","name":"Pestalozzistraße","public_transport":"stop_position"},"id":"698362144","lat":51.2495649,"lon":7.1249364}
+node: {"tags":{"bench":"yes","highway":"bus_stop","name":"Bismarckstraße","shelter":"yes"},"id":"698362150","lat":51.2508235,"lon":7.1256136}
+node: {"tags":{"highway":"bus_stop","name":"Treppenstraße","public_transport":"stop_position"},"id":"698362213","lat":51.2516506,"lon":7.1294107}
+node: {"tags":{"bench":"yes","highway":"bus_stop","name":"Roonstraße","shelter":"yes"},"id":"698362217","lat":51.253572,"lon":7.1304936}
+node: {"tags":{"highway":"bus_stop","name":"Wanderparkplatz Arboretum","public_transport":"stop_position"},"id":"698844335","lat":51.2130277,"lon":7.1077525}
+node: {"tags":{"highway":"bus_stop","name":"Ottenbruch Bf"},"id":"700871792","lat":51.2605336,"lon":7.1262734}
+node: {"tags":{"highway":"bus_stop","name":"Bayreuther Straße"},"id":"700871795","lat":51.2629803,"lon":7.1319222}
+node: {"tags":{"highway":"bus_stop","name":"Falkenberg"},"id":"700871796","lat":51.2645983,"lon":7.1070109}
+node: {"tags":{"highway":"bus_stop","name":"Otto-Hausmann-Ring"},"id":"700871798","lat":51.2613293,"lon":7.1189616}
+node: {"tags":{"highway":"bus_stop","name":"Schule Bayreuther Straße"},"id":"700871799","lat":51.2617324,"lon":7.1286356}
+node: {"tags":{"highway":"bus_stop","name":"Aprather Weg"},"id":"700871800","lat":51.2699432,"lon":7.1089944}
+node: {"tags":{"highway":"bus_stop","name":"Falkenberg"},"id":"700871801","lat":51.2642086,"lon":7.1070638}
+node: {"tags":{"highway":"bus_stop","name":"Nüller Straße"},"id":"700871802","lat":51.2624703,"lon":7.1230312}
+node: {"tags":{"highway":"bus_stop","name":"Schule Bayreuther Straße"},"id":"700871803","lat":51.2618561,"lon":7.1288238}
+node: {"tags":{"highway":"bus_stop","name":"Bergerheide"},"id":"700871809","lat":51.2688789,"lon":7.1105233}
+node: {"tags":{"highway":"bus_stop","name":"Haus Richter"},"id":"700871810","lat":51.26279,"lon":7.1091131}
+node: {"tags":{"highway":"bus_stop","name":"Nüller Straße"},"id":"700871811","lat":51.2624042,"lon":7.1228646}
+node: {"tags":{"highway":"bus_stop","name":"Bayreuther Straße"},"id":"700871812","lat":51.2621175,"lon":7.1319842}
+node: {"tags":{"highway":"bus_stop","name":"In der Beek"},"id":"700871813","lat":51.267132,"lon":7.1098618}
+node: {"tags":{"highway":"bus_stop","name":"Haus Richter"},"id":"700871814","lat":51.2626963,"lon":7.1090573}
+node: {"tags":{"highway":"bus_stop","name":"Ottenbruch Bf"},"id":"700871815","lat":51.2603879,"lon":7.1255925}
+node: {"tags":{"bench":"yes","highway":"bus_stop","name":"Bayreuther Straße","shelter":"yes"},"id":"700871816","lat":51.2627653,"lon":7.1323766}
+node: {"tags":{"highway":"bus_stop","name":"In der Beek"},"id":"700871817","lat":51.2671173,"lon":7.1095918}
+node: {"tags":{"highway":"bus_stop","name":"Otto-Hausmann-Ring"},"id":"700871818","lat":51.2614035,"lon":7.1179569}
+node: {"tags":{"highway":"bus_stop","name":"Robert-Daum-Platz","public_transport":"stop_position"},"id":"702849223","lat":51.2532085,"lon":7.1350339}
+node: {"tags":{"highway":"bus_stop","name":"Volkshochschule","public_transport":"stop_position"},"id":"702849243","lat":51.2546135,"lon":7.1404083}
+node: {"tags":{"bench":"no","highway":"bus_stop","name":"Fernmeldeamt","shelter":"no"},"id":"702849247","lat":51.2575633,"lon":7.1316893}
+node: {"tags":{"highway":"bus_stop","name":"Döringstraße"},"id":"704235038","lat":51.2507982,"lon":7.1036324}
+node: {"tags":{"highway":"bus_stop","name":"Hamburger Treppe","wheelchair":"yes"},"id":"704235043","lat":51.2699779,"lon":7.1470622}
+node: {"tags":{"highway":"bus_stop","name":"Volkshochschule","public_transport":"stop_position"},"id":"704235044","lat":51.2545589,"lon":7.140913}
+node: {"tags":{"highway":"bus_stop","name":"Rostocker Straße"},"id":"704235047","lat":51.2695967,"lon":7.1342168}
+node: {"tags":{"highway":"bus_stop","name":"Hansastraße","wheelchair":"yes"},"id":"704235050","lat":51.2687709,"lon":7.1437867}
+node: {"tags":{"highway":"bus_stop","name":"Am Eckbusch","note":"FIXME: exact location?","wheelchair":"yes"},"id":"704235051","lat":51.2774316,"lon":7.1043485}
+node: {"tags":{"bus":"yes","highway":"bus_stop","name":"Düsseldorfer Straße","public_transport":"stop_position"},"id":"704235054","lat":51.2538042,"lon":7.1036017}
+node: {"tags":{"highway":"bus_stop","name":"Westende"},"id":"704235064","lat":51.2492644,"lon":7.1182748}
+node: {"tags":{"highway":"bus_stop","name":"Pahlkestraße"},"id":"704235070","lat":51.2695308,"lon":7.1058291}
+node: {"tags":{"highway":"bus_stop","name":"Rostocker Straße"},"id":"704235080","lat":51.2694805,"lon":7.1339867}
+node: {"tags":{"highway":"bus_stop","name":"Robert-Daum-Platz","public_transport":"stop_position"},"id":"704235087","lat":51.2534066,"lon":7.135147}
+node: {"tags":{"highway":"bus_stop","name":"Hansastraße","wheelchair":"yes"},"id":"704235101","lat":51.2687139,"lon":7.1438376}
+node: {"tags":{"bus":"yes","highway":"bus_stop","name":"Düsseldorfer Straße","public_transport":"stop_position"},"id":"704235110","lat":51.2525936,"lon":7.1042048}
+node: {"tags":{"highway":"bus_stop","name":"Hamburger Treppe"},"id":"704235117","lat":51.2701845,"lon":7.1474552}
+node: {"tags":{"highway":"bus_stop","name":"Löwer","public_transport":"stop_position"},"id":"704235124","lat":51.249362,"lon":7.1121159}
+node: {"tags":{"highway":"bus_stop","name":"Pahlkestraße"},"id":"704235132","lat":51.2697789,"lon":7.1068965}
+node: {"tags":{"highway":"bus_stop","name":"Greifswalder Straße"},"id":"704235135","lat":51.2700963,"lon":7.1368161}
+node: {"tags":{"highway":"bus_stop","name":"Treppenstraße","public_transport":"stop_position"},"id":"704235145","lat":51.2515581,"lon":7.1292154}
+node: {"tags":{"highway":"bus_stop","name":"Greifswalder Straße"},"id":"704235161","lat":51.2701194,"lon":7.1365941}
+node: {"tags":{"bus":"yes","highway":"bus_stop","name":"Düsseldorfer Straße","public_transport":"stop_position"},"id":"704235177","lat":51.2538797,"lon":7.1033219}
+node: {"tags":{"highway":"bus_stop","name":"Talstraße"},"id":"704235186","lat":51.24828,"lon":7.1035276}
+node: {"tags":{"highway":"bus_stop","name":"Westende"},"id":"704235190","lat":51.2491802,"lon":7.1181293}
+node: {"tags":{"highway":"bus_stop","name":"Stralsunder Straße"},"id":"704235205","lat":51.2695161,"lon":7.1416237}
+node: {"tags":{"highway":"bus_stop","name":"Ohligsmühle","wheelchair":"yes"},"id":"704235206","lat":51.2547563,"lon":7.1451479}
+node: {"tags":{"highway":"bus_stop","name":"Varresbecker Straße","public_transport":"stop_position"},"id":"704235220","lat":51.2467907,"lon":7.1068777}
+node: {"tags":{"highway":"bus_stop","name":"Pestalozzistraße","public_transport":"stop_position"},"id":"704235222","lat":51.2493978,"lon":7.1245791}
+node: {"tags":{"highway":"bus_stop","name":"Stralsunder Straße"},"id":"704235231","lat":51.2701074,"lon":7.1404734}
+node: {"tags":{"highway":"bus_stop","name":"Bremer Straße"},"id":"704235240","lat":51.2700013,"lon":7.1310794}
+node: {"tags":{"highway":"bus_stop","name":"Bremer Straße"},"id":"704235251","lat":51.2698898,"lon":7.1306815}
+node: {"tags":{"highway":"bus_stop","name":"Am Eckbusch","note":"FIXME: exact location?","wheelchair":"yes"},"id":"704235255","lat":51.2769415,"lon":7.1058061}
+node: {"tags":{"highway":"bus_stop","name":"Bismarckstraße"},"id":"713323954","lat":51.250731,"lon":7.125299}
+node: {"tags":{"highway":"bus_stop","name":"Anilintreppe"},"id":"713323958","lat":51.2508707,"lon":7.116343}
+node: {"tags":{"highway":"bus_stop","name":"Fernmeldeamt"},"id":"713323963","lat":51.2575215,"lon":7.1314969}
+node: {"tags":{"highway":"bus_stop","name":"Kyffhäuserstraße"},"id":"713323966","lat":51.2511465,"lon":7.1134261}
+node: {"tags":{"highway":"bus_stop","name":"Roonstraße"},"id":"713323969","lat":51.2534679,"lon":7.129673}
+node: {"tags":{"highway":"bus_stop","name":"Kyffhäuserstraße"},"id":"713323971","lat":51.2517159,"lon":7.113771}
+node: {"tags":{"highway":"bus_stop","name":"Vogelsaue"},"id":"713323974","lat":51.2504343,"lon":7.119724}
+node: {"tags":{"highway":"bus_stop","name":"Fernmeldeamt"},"id":"713323977","lat":51.2579116,"lon":7.130116}
+node: {"tags":{"highway":"bus_stop","name":"Deweerthscher Garten","wheelchair":"yes"},"id":"713323979","lat":51.2542003,"lon":7.1323312}
+node: {"tags":{"highway":"bus_stop","name":"Am Eskesberg"},"id":"713323982","lat":51.2561101,"lon":7.1063972}
+node: {"tags":{"highway":"bus_stop","name":"Knappertsbuschweg"},"id":"713323985","lat":51.2596406,"lon":7.1244669}
+node: {"tags":{"highway":"bus_stop","name":"Rabenweg"},"id":"713323987","lat":51.2539,"lon":7.1158522}
+node: {"tags":{"highway":"bus_stop","name":"Sperberweg"},"id":"713323989","lat":51.2523308,"lon":7.1111465}
+node: {"tags":{"highway":"bus_stop","name":"Dorp"},"id":"713323994","lat":51.2600899,"lon":7.1128631}
+node: {"tags":{"highway":"bus_stop","name":"Kyffhäuserstraße"},"id":"713323996","lat":51.2515585,"lon":7.1136033}
+node: {"tags":{"highway":"bus_stop","name":"Anilintreppe"},"id":"713323998","lat":51.2507944,"lon":7.1172432}
+node: {"tags":{"highway":"bus_stop","name":"Dorp"},"id":"713324001","lat":51.2600018,"lon":7.1124242}
+node: {"tags":{"highway":"bus_stop","name":"Knappertsbuschweg"},"id":"713324003","lat":51.2597091,"lon":7.1248166}
+node: {"tags":{"highway":"bus_stop","name":"Vogelsaue"},"id":"713324004","lat":51.2502099,"lon":7.1209778}
+node: {"tags":{"highway":"bus_stop","name":"Fernmeldeamt"},"id":"713324005","lat":51.257814,"lon":7.1302092}
+node: {"tags":{"highway":"bus_stop","name":"Deweerthscher Garten","wheelchair":"yes"},"id":"713324006","lat":51.2546347,"lon":7.131653}
+node: {"tags":{"highway":"bus_stop","name":"Am Eskesberg"},"id":"713324007","lat":51.2558335,"lon":7.1064753}
+node: {"tags":{"highway":"bus_stop","name":"Habichtweg"},"id":"713324008","lat":51.2524355,"lon":7.1141103}
+node: {"tags":{"highway":"bus_stop","name":"Schützenstraße WSW"},"id":"768944558","lat":51.2788504,"lon":7.1849773}
+node: {"tags":{"highway":"bus_stop","name":"Siegesstraße"},"id":"768944559","lat":51.2652688,"lon":7.1908188}
+node: {"tags":{"highway":"bus_stop","name":"Siegesstraße"},"id":"768944560","lat":51.2652505,"lon":7.1910808}
+node: {"tags":{"bus":"yes","highway":"bus_stop","local_ref":"9","name":"Alter Markt","wheelchair":"yes"},"id":"768944575","lat":51.2705236,"lon":7.1959316}
+node: {"tags":{"bus":"yes","highway":"bus_stop","local_ref":"8","name":"Alter Markt","public_transport":"platform","wheelchair":"yes"},"id":"768944576","lat":51.2709513,"lon":7.1960436}
+node: {"tags":{"highway":"bus_stop","name":"Landwehrplatz","wheelchair":"yes"},"id":"768944577","lat":51.2732134,"lon":7.1931309}
+node: {"tags":{"highway":"bus_stop","local_ref":"4","name":"Alter Markt","public_transport":"stop_position","ref":"4","wheelchair":"yes"},"id":"768944578","lat":51.2698975,"lon":7.1975785}
+node: {"tags":{"highway":"bus_stop","local_ref":"6","name":"Alter Markt","wheelchair":"yes"},"id":"768944579","lat":51.2700194,"lon":7.198431}
+node: {"tags":{"highway":"bus_stop","local_ref":"3","name":"Alter Markt","wheelchair":"yes"},"id":"768944581","lat":51.2699245,"lon":7.1989125}
+node: {"tags":{"highway":"bus_stop","local_ref":"7","name":"Alter Markt","wheelchair":"yes"},"id":"768944582","lat":51.2700745,"lon":7.1990442}
+node: {"tags":{"highway":"bus_stop","local_ref":"3","name":"Alter Markt","wheelchair":"yes"},"id":"768944583","lat":51.2699269,"lon":7.1989712}
+node: {"tags":{"highway":"bus_stop","name":"Carnaper Platz/WSW","wheelchair":"yes"},"id":"768944584","lat":51.2763143,"lon":7.1880891}
+node: {"tags":{"highway":"bus_stop","name":"Carnaper Platz/WSW","wheelchair":"yes"},"id":"768944585","lat":51.2761801,"lon":7.1880444}
+node: {"tags":{"highway":"bus_stop","name":"Landwehrplatz","wheelchair":"yes"},"id":"768944586","lat":51.2736554,"lon":7.1930142}
+node: {"tags":{"highway":"bus_stop","name":"Petrus-Krankenhaus","note":"Kliniken St. Antonius Carnaper Straße","wheelchair":"yes"},"id":"768944587","lat":51.2749854,"lon":7.1911639}
+node: {"tags":{"highway":"bus_stop","name":"Petrus-Krankenhaus","note":"Kliniken St. Antonius Carnaper Straße","wheelchair":"yes"},"id":"768944588","lat":51.2751593,"lon":7.1912338}
+node: {"tags":{"highway":"bus_stop","name":"Sedanstraße"},"id":"768944589","lat":51.2748289,"lon":7.1943151}
+node: {"tags":{"highway":"bus_stop","name":"Schlangenweg WSW"},"id":"768944590","lat":51.2773204,"lon":7.19254}
+node: {"tags":{"highway":"bus_stop","name":"Schwalbenstraße"},"id":"768944591","lat":51.2777168,"lon":7.1940326}
+node: {"tags":{"highway":"bus_stop","name":"Schwalbenstraße"},"id":"768944592","lat":51.2775816,"lon":7.19389}
+node: {"tags":{"highway":"bus_stop","name":"Schützenstraße WSW"},"id":"768944593","lat":51.2790515,"lon":7.1858635}
+node: {"tags":{"highway":"bus_stop","name":"Leimbach"},"id":"768944594","lat":51.2799873,"lon":7.1931522}
+node: {"tags":{"highway":"bus_stop","name":"Leimbach"},"id":"768944595","lat":51.2794876,"lon":7.1933823}
+node: {"tags":{"highway":"bus_stop","name":"Totilaweg"},"id":"768944596","lat":51.2791338,"lon":7.1948221}
+node: {"tags":{"highway":"bus_stop","name":"Siedlungsstraße"},"id":"768944597","lat":51.2809122,"lon":7.195011}
+node: {"tags":{"highway":"bus_stop","name":"Toelleturm","public_transport":"stop_position"},"id":"803919164","lat":51.2546551,"lon":7.1988612}
+node: {"tags":{"highway":"bus_stop","name":"Toelleturm","public_transport":"stop_position"},"id":"803919232","lat":51.2550023,"lon":7.1985146}
+node: {"tags":{"highway":"bus_stop","name":"Marper Schulweg","public_transport":"stop_position"},"id":"803919310","lat":51.2498942,"lon":7.192904}
+node: {"tags":{"highway":"bus_stop","name":"Gartensiedlung"},"id":"803919362","lat":51.2585678,"lon":7.1943382}
+node: {"tags":{"highway":"bus_stop","name":"Rudolf-Ziersch-Straße"},"id":"803919409","lat":51.2562027,"lon":7.1968548}
+node: {"tags":{"highway":"bus_stop","name":"Wettinerstraße","public_transport":"stop_position"},"id":"803919456","lat":51.2519636,"lon":7.1955545}
+node: {"tags":{"highway":"bus_stop","name":"Jugendherberge"},"id":"803919525","lat":51.2620367,"lon":7.197929}
+node: {"tags":{"highway":"bus_stop","name":"Scharpenacker Weg","wheelchair":"yes"},"id":"803919593","lat":51.2462255,"lon":7.1920658}
+node: {"tags":{"highway":"bus_stop","name":"Wettinerstraße","public_transport":"stop_position"},"id":"803919644","lat":51.2516673,"lon":7.1950209}
+node: {"tags":{"highway":"bus_stop","name":"Rudolf-Ziersch-Straße"},"id":"803919721","lat":51.2563094,"lon":7.1962027}
+node: {"tags":{"highway":"bus_stop","name":"Scharpenacker Weg","wheelchair":"yes"},"id":"803919838","lat":51.2460758,"lon":7.191805}
+node: {"tags":{"highway":"bus_stop","name":"Gartensiedlung"},"id":"803919976","lat":51.2584151,"lon":7.1942066}
+node: {"tags":{"highway":"bus_stop","name":"Marper Schulweg","public_transport":"stop_position"},"id":"803920045","lat":51.2502213,"lon":7.1931479}
+node: {"tags":{"highway":"bus_stop","name":"Schönebecker Straße"},"id":"807761960","lat":51.2751304,"lon":7.180636}
+node: {"tags":{"highway":"bus_stop","name":"Bürgerallee"},"id":"807761968","lat":51.2812221,"lon":7.1970582}
+node: {"tags":{"highway":"bus_stop","name":"Metzmachersrath"},"id":"807761976","lat":51.2797603,"lon":7.132482}
+node: {"tags":{"highway":"bus_stop","name":"Metzmachersrath"},"id":"807761995","lat":51.279922,"lon":7.132708}
+node: {"tags":{"highway":"bus_stop","name":"Leimbach"},"id":"807762002","lat":51.2804806,"lon":7.1936849}
+node: {"tags":{"highway":"bus_stop","name":"Schönebecker Straße"},"id":"807762024","lat":51.2757496,"lon":7.1809551}
+node: {"tags":{"highway":"bus_stop","name":"Elias-Eller-Straße"},"id":"815520175","lat":51.2352121,"lon":7.195459}
+node: {"tags":{"highway":"bus_stop","name":"Sportplatz Oberbergische Straße"},"id":"815520182","lat":51.2525611,"lon":7.1784652}
+node: {"tags":{"highway":"bus_stop","name":"Kapellen"},"id":"815520184","lat":51.2431752,"lon":7.1793551}
+node: {"tags":{"highway":"bus_stop","name":"Gymnasium Johannes Rau"},"id":"815520187","lat":51.2645712,"lon":7.1876559}
+node: {"tags":{"highway":"bus_stop","name":"Müngstener Straße"},"id":"815520189","lat":51.2474211,"lon":7.1873887}
+node: {"tags":{"highway":"bus_stop","name":"Ronsdorf Markt"},"id":"815520192","lat":51.227104,"lon":7.197133}
+node: {"tags":{"highway":"bus_stop","name":"Unterbarmen Bahnhof"},"id":"815520193","lat":51.259323,"lon":7.173726}
+node: {"tags":{"highway":"bus_stop","name":"Müngstener Straße"},"id":"815520197","lat":51.2471192,"lon":7.1874379}
+node: {"tags":{"highway":"bus_stop","name":"Unterbarmen Bahnhof"},"id":"815520202","lat":51.2588455,"lon":7.1739529}
+node: {"tags":{"highway":"bus_stop","name":"Ronsdorf Markt"},"id":"815520206","lat":51.2270501,"lon":7.1985343}
+node: {"tags":{"highway":"bus_stop","name":"Kurfürstenstraße"},"id":"815520207","lat":51.2326547,"lon":7.1958751}
+node: {"tags":{"highway":"bus_stop","name":"Sportplatz Oberbergische Straße"},"id":"815520208","lat":51.252926,"lon":7.1786508}
+node: {"tags":{"highway":"bus_stop","name":"Windhornstraße","public_transport":"platform"},"id":"825299598","lat":51.2891909,"lon":7.1873881}
+node: {"tags":{"highway":"bus_stop","name":"Wilkhausstraße"},"id":"825299603","lat":51.2881966,"lon":7.1925361}
+node: {"tags":{"bench":"no","highway":"bus_stop","name":"Thorner Straße","public_transport":"platform","shelter":"no"},"id":"825299605","lat":51.2751467,"lon":7.1856159}
+node: {"tags":{"bench":"no","highway":"bus_stop","name":"Posener Straße","public_transport":"platform","shelter":"no"},"id":"825299607","lat":51.2769678,"lon":7.1833514}
+node: {"tags":{"bench":"yes","highway":"bus_stop","name":"Tulpenstraße","public_transport":"platform","shelter":"no","wheelchair":"yes"},"id":"825299609","lat":51.2697408,"lon":7.1845636}
+node: {"tags":{"highway":"bus_stop","name":"Winchenbachstraße"},"id":"825299610","lat":51.2804069,"lon":7.1900423}
+node: {"tags":{"highway":"bus_stop","name":"Schwartnerstraße"},"id":"825299611","lat":51.2857768,"lon":7.1905344}
+node: {"tags":{"bench":"no","highway":"bus_stop","name":"Rotter Platz","public_transport":"platform","shelter":"no","wheelchair":"yes"},"id":"825299614","lat":51.2732481,"lon":7.1862765}
+node: {"tags":{"bench":"yes","highway":"bus_stop","name":"Eichenstraße","public_transport":"platform","shelter":"yes","wheelchair":"yes"},"id":"825299616","lat":51.2709795,"lon":7.1872018}
+node: {"tags":{"highway":"bus_stop","name":"Am Gelben Sprung","public_transport":"platform"},"id":"825299617","lat":51.2848293,"lon":7.189813}
+node: {"tags":{"highway":"bus_stop","name":"Am Gelben Sprung"},"id":"825299619","lat":51.2840651,"lon":7.1882334}
+node: {"tags":{"highway":"bus_stop","name":"Eschenstraße","public_transport":"platform","wheelchair":"yes"},"id":"825299621","lat":51.2723626,"lon":7.184314}
+node: {"tags":{"bench":"yes","highway":"bus_stop","name":"Thorner Straße","public_transport":"platform","shelter":"yes"},"id":"825299625","lat":51.275192,"lon":7.1857147}
+node: {"tags":{"bench":"yes","highway":"bus_stop","name":"Eschenstraße","public_transport":"platform","shelter":"yes","wheelchair":"yes"},"id":"825299626","lat":51.2724592,"lon":7.185114}
+node: {"tags":{"highway":"bus_stop","name":"Wilkhausstraße"},"id":"825299627","lat":51.2882615,"lon":7.1927083}
+node: {"tags":{"highway":"bus_stop","name":"Winchenbachstraße"},"id":"825299628","lat":51.2801016,"lon":7.1900231}
+node: {"tags":{"bench":"no","highway":"bus_stop","name":"Rosenstraße","public_transport":"platform","shelter":"no","wheelchair":"yes"},"id":"825299629","lat":51.2712578,"lon":7.1847376}
+node: {"tags":{"bench":"yes","highway":"bus_stop","name":"Windhornstraße","public_transport":"platform","shelter":"yes"},"id":"825299631","lat":51.2889851,"lon":7.1875882}
+node: {"tags":{"bench":"no","highway":"bus_stop","name":"Posener Straße","public_transport":"platform","shelter":"no"},"id":"825299636","lat":51.2766068,"lon":7.1835799}
+node: {"tags":{"bench":"yes","highway":"bus_stop","name":"Kastanienstraße","public_transport":"platform","shelter":"yes","wheelchair":"yes"},"id":"825299639","lat":51.2690985,"lon":7.1809601}
+node: {"tags":{"bench":"yes","highway":"bus_stop","name":"Rotter Platz","public_transport":"platform","shelter":"no","wheelchair":"yes"},"id":"825299640","lat":51.2733041,"lon":7.18619}
+node: {"tags":{"highway":"bus_stop","name":"Oberkamper Straße"},"id":"829641108","lat":51.2098679,"lon":7.1446339}
+node: {"tags":{"highway":"bus_stop","name":"Ringstraße"},"id":"829641123","lat":51.2101921,"lon":7.1290539}
+node: {"tags":{"highway":"bus_stop","name":"Am Freudenberg"},"id":"829641130","lat":51.2393579,"lon":7.1677703}
+node: {"tags":{"highway":"bus_stop","name":"Cronenberg Stadtbad"},"id":"829641136","lat":51.2050073,"lon":7.1376974}
+node: {"tags":{"highway":"bus_stop","name":"Im Saalscheid"},"id":"829641138","lat":51.22554,"lon":7.178141}
+node: {"tags":{"highway":"bus_stop","name":"Am Sonnenblick"},"id":"829641155","lat":51.2282406,"lon":7.1802439}
+node: {"tags":{"highway":"bus_stop","name":"Oberdahl"},"id":"829641160","lat":51.2172042,"lon":7.1542539}
+node: {"tags":{"highway":"bus_stop","name":"Oberkamper Straße"},"id":"829641167","lat":51.2097673,"lon":7.1444523}
+node: {"tags":{"highway":"bus_stop","name":"Am Hofe"},"id":"829641170","lat":51.2107566,"lon":7.1268041}
+node: {"tags":{"highway":"bus_stop","name":"Amboßstraße","wheelchair":"yes"},"id":"829641181","lat":51.208105,"lon":7.1333696}
+node: {"tags":{"highway":"bus_stop","name":"Klinik Bergisch Land"},"id":"829641182","lat":51.2246926,"lon":7.1739872}
+node: {"tags":{"highway":"bus_stop","name":"Kuchhausen"},"id":"829641190","lat":51.207024,"lon":7.141661}
+node: {"tags":{"highway":"bus_stop","name":"Am Sonnenblick"},"id":"829641195","lat":51.2276226,"lon":7.1791941}
+node: {"tags":{"highway":"bus_stop","name":"Unterkirchen","wheelchair":"no"},"id":"829641200","lat":51.2038601,"lon":7.1319653}
+node: {"tags":{"highway":"bus_stop","name":"Hütter Straße"},"id":"829641213","lat":51.20879,"lon":7.129926}
+node: {"tags":{"highway":"bus_stop","name":"Kampstraße"},"id":"829641219","lat":51.2089566,"lon":7.1428952}
+node: {"tags":{"highway":"bus_stop","name":"Hütter Straße"},"id":"829641224","lat":51.208733,"lon":7.1301069}
+node: {"tags":{"highway":"bus_stop","name":"Kuchhausen"},"id":"829641228","lat":51.2070286,"lon":7.142045}
+node: {"tags":{"highway":"bus_stop","name":"Monschaustraße"},"id":"829641237","lat":51.2302895,"lon":7.1918432}
+node: {"tags":{"highway":"bus_stop","name":"Unterkirchen","wheelchair":"no"},"id":"829641245","lat":51.204128,"lon":7.132543}
+node: {"tags":{"highway":"bus_stop","name":"Rennbaumer Straße"},"id":"829641265","lat":51.2199779,"lon":7.1548747}
+node: {"tags":{"highway":"bus_stop","name":"Blutfinke"},"id":"829641267","lat":51.2294591,"lon":7.1867582}
+node: {"tags":{"highway":"bus_stop","name":"Kampstraße"},"id":"829641278","lat":51.2088646,"lon":7.1431327}
+node: {"tags":{"highway":"bus_stop","name":"Monschaustraße"},"id":"829641282","lat":51.2304786,"lon":7.1914736}
+node: {"tags":{"highway":"bus_stop","name":"Cronenberg Stadtbad"},"id":"829641289","lat":51.2050554,"lon":7.1379349}
+node: {"tags":{"highway":"bus_stop","name":"Im Saalscheid"},"id":"829641298","lat":51.2257931,"lon":7.1785402}
+node: {"tags":{"highway":"bus_stop","name":"Blutfinke"},"id":"829641311","lat":51.2295211,"lon":7.1866303}
+node: {"tags":{"highway":"bus_stop","name":"Alter Markt","wheelchair":"yes"},"id":"836371247","lat":51.2711474,"lon":7.1980051}
+node: {"tags":{"highway":"bus_stop","name":"Zoo/Stadion","public_transport":"stop_position"},"id":"844180758","lat":51.2410392,"lon":7.1029622}
+node: {"tags":{"highway":"bus_stop","name":"Röpkestraße"},"id":"844180766","lat":51.2501064,"lon":7.1062927}
+node: {"tags":{"highway":"bus_stop","name":"Kornstraße"},"id":"844180768","lat":51.238655,"lon":7.101709}
+node: {"tags":{"highway":"bus_stop","name":"Paul-Hanisch-Haus"},"id":"844180770","lat":51.2480757,"lon":7.1067551}
+node: {"tags":{"highway":"bus_stop","name":"Kornstraße"},"id":"844180772","lat":51.2385405,"lon":7.1007321}
+node: {"tags":{"highway":"bus_stop","name":"Varresbecker Straße"},"id":"844180774","lat":51.2459065,"lon":7.1054266}
+node: {"tags":{"bus":"yes","highway":"bus_stop","name":"Am Haspel","public_transport":"stop_position"},"id":"1023647949","lat":51.2592783,"lon":7.167616}
+node: {"tags":{"bus":"yes","highway":"bus_stop","name":"Alter Markt","public_transport":"stop_position","ref":"8","wheelchair":"yes"},"id":"1023647963","lat":51.2709141,"lon":7.1959494}
+node: {"tags":{"bus":"yes","highway":"bus_stop","name":"Bromberger Straße/WSW","public_transport":"stop_position","wheelchair":"yes"},"id":"1023648008","lat":51.2777791,"lon":7.1852577}
+node: {"tags":{"bus":"yes","designation":"Wuppertal Hauptbahnhof","highway":"bus_stop","name":"Wuppertal Hauptbahnhof, Bussteig 3","public_transport":"stop_position","ref":"3"},"id":"1023648074","lat":51.2554928,"lon":7.1476704}
+node: {"tags":{"bus":"yes","highway":"bus_stop","name":"Am Haspel","public_transport":"stop_position"},"id":"1023648086","lat":51.2585373,"lon":7.1669269}
+node: {"tags":{"bus":"yes","highway":"bus_stop","name":"Wall/Museum","public_transport":"stop_position"},"id":"1023755509","lat":51.2571333,"lon":7.1461625}
+node: {"tags":{"highway":"bus_stop","name":"Dickmann"},"id":"1065875573","lat":51.2973044,"lon":7.167568}
+node: {"tags":{"highway":"bus_stop","name":"Am Raukamp","network":"VRR","public_transport":"stop_area","shelter":"yes","source":"GPS","type":"public_transport"},"id":"1080610394","lat":51.2837796,"lon":7.1732527}
+node: {"tags":{"bus":"yes","designation":"Wuppertal Hauptbahnhof","highway":"bus_stop","name":"Wuppertal Hauptbahnhof, Bussteig 4","public_transport":"stop_position","ref":"4"},"id":"1236109388","lat":51.2562056,"lon":7.1497063}
+node: {"tags":{"highway":"bus_stop","name":"Am Freudenberg"},"id":"1359365772","lat":51.23999,"lon":7.1675719}
+node: {"tags":{"bench":"no","highway":"bus_stop","name":"Hatzfeld Wasserturm","shelter":"no"},"id":"1541217104","lat":51.2938609,"lon":7.183912}
+node: {"tags":{"bench":"yes","highway":"bus_stop","name":"Hatzfeld Wasserturm","shelter":"no"},"id":"1541217107","lat":51.2941323,"lon":7.1838986}
+node: {"tags":{"bench":"no","highway":"bus_stop","shelter":"no"},"id":"1541217129","lat":51.2922408,"lon":7.1859333}
+node: {"tags":{"highway":"bus_stop","name":"Gerstau"},"id":"1718408877","lat":51.2006194,"lon":7.1588917}
+node: {"tags":{"highway":"bus_stop","name":"Gerstau"},"id":"1718408897","lat":51.2009287,"lon":7.1581085}
+node: {"tags":{"highway":"bus_stop","name":"Dohr"},"id":"1728256425","lat":51.2113001,"lon":7.1493398}
+node: {"tags":{"highway":"bus_stop","name":"Dohr"},"id":"1728256440","lat":51.2111058,"lon":7.1498752}
+node: {"tags":{"highway":"bus_stop","name":"Kleinenhammer"},"id":"1728256443","lat":51.202656,"lon":7.1532022}
+node: {"tags":{"highway":"bus_stop","name":"Dohrer Dreh"},"id":"1728256446","lat":51.2100173,"lon":7.149336}
+node: {"tags":{"highway":"bus_stop","name":"Kleinenhammer"},"id":"1728256449","lat":51.2023468,"lon":7.1528374}
+node: {"tags":{"highway":"bus_stop","name":"Farnweg"},"id":"1815016769","lat":51.2823649,"lon":7.1085401}
+node: {"tags":{"highway":"bus_stop","name":"Haus am Waldsee"},"id":"1815016775","lat":51.2816871,"lon":7.1004136}
+node: {"tags":{"highway":"bus_stop","name":"Haus am Waldsee"},"id":"1815016777","lat":51.2818113,"lon":7.1004297}
+node: {"tags":{"bench":"no","highway":"bus_stop","name":"Horath, Wuppertal","public_transport":"platform","shelter":"no"},"id":"1851377581","lat":51.2982307,"lon":7.1816922}
+node: {"tags":{"bench":"yes","highway":"bus_stop","name":"Horath, Wuppertal","public_transport":"platform","shelter":"yes"},"id":"1851377586","lat":51.2979791,"lon":7.1816895}
+node: {"tags":{"highway":"bus_stop"},"id":"2026971032","lat":51.2699617,"lon":7.108592}
+node: {"tags":{"bus":"yes","designation":"Wuppertal Hauptbahnhof","highway":"bus_stop","name":"Wuppertal Hauptbahnhof, Bussteig 6","network":"VRR","operator":"WSW","public_transport":"stop_position","ref":"6","train":"no"},"id":"2047702971","lat":51.2559692,"lon":7.1497133}
+node: {"tags":{"bus":"yes","designation":"Wuppertal Hauptbahnhof","highway":"bus_stop","name":"Wuppertal Hauptbahnhof, Bussteig 8","network":"VRR","operator":"WSW","public_transport":"stop_position","ref":"8"},"id":"2048200820","lat":51.2560691,"lon":7.1503416}
+node: {"tags":{"highway":"bus_stop","name":"Casinostraße","network":"VRR","operator":"WSW"},"id":"2056768128","lat":51.2559084,"lon":7.141808}
+node: {"tags":{"highway":"bus_stop","name":"Grenze Jagdhaus"},"id":"2082552551","lat":51.2808645,"lon":7.1206236}
+node: {"tags":{"highway":"bus_stop","public_transport":"stop_position"},"id":"2097969321","lat":51.2601942,"lon":7.1476318}
+node: {"tags":{"highway":"bus_stop"},"id":"2102632867","lat":51.2810895,"lon":7.1248251}
+node: {"tags":{"bus":"yes","highway":"bus_stop","name":"Barmen Bahnhof","network":"VRR","operator":"WSW","public_transport":"stop_position","ref":"2","wheelchair":"yes"},"id":"2272445873","lat":51.2679967,"lon":7.1953606}
+node: {"tags":{"highway":"bus_stop","name":"Kluse/Schauspielhaus","wheelchair":"yes"},"id":"2276931270","lat":51.2568101,"lon":7.1570125}
+node: {"tags":{"bus_stop:info:vocal":"yes","highway":"bus_stop","name":"Historische Stadthalle","operator":"WSW - Wuppertaler Stadtwerke","ref":"1","shelter":"yes","wheelchair":"yes"},"id":"2358704255","lat":51.2531373,"lon":7.1441924}
+node: {"tags":{"bus_stop:info:vocal":"yes","highway":"bus_stop","name":"Historische Stadthalle","ref":"3","wheelchair":"yes"},"id":"2358704256","lat":51.2524373,"lon":7.145795}
+node: {"tags":{"highway":"bus_stop","name":"Am Forsthof"},"id":"2387814153","lat":51.2423825,"lon":7.159473}
+node: {"tags":{"highway":"bus_stop","name":"Am Forsthof"},"id":"2387814154","lat":51.2424026,"lon":7.1591941}
+node: {"tags":{"highway":"bus_stop","name":"Alter Markt / Fischertal","public_transport":"platform"},"id":"2428234591","lat":51.2692684,"lon":7.1986012}
+node: {"tags":{"bus":"yes","bus_stop:info:vocal":"yes","highway":"bus_stop","name":"Historische Stadthalle","network":"VRR","operator":"WSW","public_transport":"stop_position","ref":"4","wheelchair":"yes"},"id":"2441883237","lat":51.2527933,"lon":7.1455948}
+node: {"tags":{"bench":"no","highway":"bus_stop","name":"Elberfelder Straße, Sprockhövel","public_transport":"platform","shelter":"no"},"id":"2456701060","lat":51.2992681,"lon":7.183857}
+node: {"tags":{"bench":"no","highway":"bus_stop","name":"Elberfelder Straße, Sprockhövel","public_transport":"platform","shelter":"no"},"id":"2456936871","lat":51.2992574,"lon":7.1840654}
+node: {"tags":{"highway":"bus_stop","name":"Universität","operator":"Wuppertal","shelter":"yes"},"id":"2498858362","lat":51.2455828,"lon":7.1499017}
+node: {"tags":{"highway":"bus_stop","name":"Universität","operator":"WSW","shelter":"no"},"id":"2498858363","lat":51.2447354,"lon":7.1488879}
+node: {"tags":{"highway":"bus_stop","public_transport":"stop_position"},"id":"2511338319","lat":51.2492261,"lon":7.1182106}
+node: {"tags":{"bench":"no","highway":"bus_stop","name":"Horather Schanze","shelter":"no"},"id":"2629693152","lat":51.2972238,"lon":7.1736202}
+node: {"tags":{"bench":"no","highway":"bus_stop","name":"Horather Schanze","shelter":"no"},"id":"2629693159","lat":51.2973672,"lon":7.1739094}
+document end
